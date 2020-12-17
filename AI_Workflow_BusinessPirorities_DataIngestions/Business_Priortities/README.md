@@ -283,3 +283,42 @@ The other important side to degree of belief is that it never caps out at 100 pe
 A hypothesis is the simplest explanation of a phenomenon. A scientific theory is an in-depth explanation of the observed phenomenon. Do not be mistaken with the word theory, there can be sufficient evidence that your degree of belief all but touches 100%, and is plenty for decision making purposes. A built-in safeguard for scientific thought is that our degree of belief does not reach 100%, which leaves some room to find new evidence that could move the dial in the other direction.
 
 There are additional factors like external peer review that help ensure the integrity of the scientific method and in the case of implementing a model for a specific business task this could mean assigning reviewers for a pull request or simply asking other qualified individuals to check over your work.
+
+
+
+#### Gathering Data
+
+
+#### Documenting your data
+Too often data scientists will find themselves deep in the process of developing a solution, based on the data that was provided to them, before they realize that the data itself is flawed, inaccurate or in some other way non-ideal. Developing the habit of creating a simple document with at least a description of the ideal data needed to test the hypotheses around the business problem may seem like an unnecessary step, but it has potential to both:
+
+ Streamline the modeling process
+ Help ensure that all future data come in an improved form
+
+### ETL
+The process of gathering data is often referred to as Extract, Transform, Load (ETL). Data is generally gathered (or extracted) from heterogeneous sources, cleaned (transformed) and loaded into a single place that facilitates analysis. Before the advent of the modern data scientist’s toolkit data was often staged in a database,data lake or a data warehouse. Still today data is frequently staged to facilitate collaboration, but there are tools now that enable more possibilities today than ever before. Jupyter Lab has an extension called data grid that allows it to read delimited files with millions or even billions of rows. Then tools like Dask help you scale your analyses. To ensure that projects are completed in a reasonable amount of time the initial pass at ETL should use a simple format like CSV, then a more complex system can be built out once you have accomplished the Minimum Viable Product (MVP).
+
+### Common methods of gathering data
+Plain text files
+Plain text file can come in many forms and generally the open function is used to bring the data into a Python environment. This is a flexible format, but because no structure is imposed, custom scripts are generally needed to parse these files and these scripts do not always generalize to new files.
+
+The large majority of data science projects involve a modeling step that requires input data in a tabular numeric format. In order to extract data from a plain text file you may need to identify patterns in the text and use regular expressions (regex) to pull out the relevant information. Python’s built-in regex library is known as re.
+
+### On the other hand if the data you are working with consists of natural language, then there are a number of libraries that can work directly with the text files. The two main libraries are:
+
+spaCy
+NLTK
+Also, scikit-learn has become a standard tool in the overall workflow when processing these files.
+
+scikit-learn’s text tutorial
+These tools can be applied to unstructured text to generate things like word counts, and word frequencies. We saw an example of this in the Data science workflow combined with design thinking example.
+
+### Delimited files
+One of the most commonly encountered ways of storing structured data is in delimited files, where rows of tabular data are stored in lines of a text file and the columns within each row are separated by a special “delimiter” character such as a comma or a tab character.
+
+This simple structure helps account for the popularity of these formats, with probably the most widely used being Comma-Separated Values (CSV). CSV files are both human and machine readable, and have minimal overhead in terms of the proportion of the file devoted to defining the structure of the data when compared to most other file formats. As such Pandas comes with methods for both reading and writing CSV files. (Note that these functions can also handle other delimiters like tab or the pipe character “|”, but commas are the default.)
+
+Spreadsheet programs like Microsoft Excel that are used for analyzing tabular data also read from and write to files in CSV format. The native Excel file format (often with file extensions .xls or .xlsx) can also be considered a delimited file type. Though these files also contain a significant amount of extra information related to things like styling that are separate from the actual data. Nonetheless, since these files are commonly used to save datasets, Pandas also has a method for reading them: pandas.read_excel.
+
+HINT:  A best practice when loading data from plain text or delimited files is to separate the code for parsing into its own script. Because the files are read line by line in a separate Python call, it is more memory efficient and this separation of tasks helps with automation and maintenance.
+
