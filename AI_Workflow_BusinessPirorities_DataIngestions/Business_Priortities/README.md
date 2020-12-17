@@ -148,3 +148,137 @@ As a scientist you always want to remain skeptical about your findings until you
     
 
 
+# 4. Data Collection Objectives
+Throughout these units you will learn or reinforce what you already know about identifying and articulating business opportunities. In this module you will learn the importance of applying a scientific thought process to the task of understanding the business use case. This process has many similarities to that of being an investigator. You will also acquire a healthy respect for the need to pause, step back and think scientifically about the main processes in this stage.  
+
+Empathize Process
+1.  Get as close to the source of data as possible usually by interviewing the people involved
+2.  Identify the business problem
+3.  Obtain all of the relevant the data
+4.  Translate the business problem into a testable hypothesis or hypotheses
+As we have seen, there are several viable processes for conducting data science, but none omit the important step of understanding the needs of the business. To take it a step further, we set out the expectation that the process be viewed through the lens of scientific thinking. It is this practice that allows valuable time and resources to be conserved.  
+
+
+
+
+
+# 5. Identifying the Business Opportunity: Through the Eyes of our Working Example
+
+### Articulate the business question
+There are generally many business questions that can be derived from a given situation. It is an important thought exercise to enumerate the possible questions, that way it makes the discussion easier when you work with the involved stakeholders in order to focus and prioritize. In this situation here are some ways of articulating the business case.
+
+Can we use marketing to reduce the rate of churn?
+Can we salvage the Singapore market with new products?
+Are there factors outside of our influence that caused the situation in Singapore and is it temporary?
+Can we identify the underlying variables in Singapore that are related to churn and can we use the knowledge to remedy the situations?
+The business problem in all of these examples is written shown in terms of the data we have.
+
+NOTE:  This case study can be approached in many different ways and there may not be a clear right or wrong. During the various modules of this course, we will provide guidance when there are multiple paths to choose from.
+
+### Prioritize
+It is logical, but there is a need to prioritize If there are several distinct business objectives. In this case maybe one is related to reducing churn directly and another is about profitability.
+
+There are three major contributing factors when it comes to priority.
+
+Stakeholder or domain expert opinion
+In situations where considerable domain expertise is required to effectively prioritize (e.g. Physics, Medicine and Finance) prioritization will likely be driven by the people closest to the domain.
+
+### Feasibility
+Do we have the necessary data to address the business questions?
+Do we have clean enough data to address the business questions?
+Do we have the technology infrastructure to deploy a solution once the data are modeled?
+Impact
+When looking at Impact we’re purely looking at expected dollar contribution and added value from a monetary perspective. When possible, calculating the back-of-the-envelope ROI is a crucial step that you can do. This is an expectation and not a real ROI calculation, but it can serve as a guiding principle nonetheless.
+
+The ROI calculation should be an expected dollar value that you can generate based on all available information you currently have in your organization combined with any domain insight you can collect.
+
+### Measuring the back-of-the-envelope ROI calculation could make use of any of the following:
+
+Estimates for fully-loaded salaries of employees involved
+Cost per unit item and/or time required to produce
+Number of customers, clients, or users
+Revenue and more
+
+
+
+
+# 6. Scientific Thinking for Business:
+
+
+Science is a process and the route to solving problems is not always direct
+A common argument made by statisticians and mathematicians is that data science is not really a science. This is untrue, mainly because data science involves a lot of investigations through sometimes chaotic data sets, in search of meaningful patterns that might help in solving particular problems.
+
+Since data science implies a scientific approach, it is important that all data scientists learn to adopt and use a scientific thought process. A scientific thought process of observation, developing hypotheses, testing hypotheses, and modifying hypotheses is critical to your success as a data scientist.
+
+Pulling in data and jumping right into exploratory data analysis can make your work prone to exactly the types of negative issues that plague data science today. There are a number of well-discussed issues revolving around data science and data science teams not living up to promised potential.
+
+At the heart of this problem is the process of communicating results to leadership. It should begin with a meaningful and well-articulated business opportunity. If that opportunity is stated too simply, as say, increasing overall revenue then the central talking point for communication is too vague to be meaningful from the data side.
+
+The business scenario needs to be communicated in a couple of ways:
+1.  Stated in a testable way in terms of data
+2.  Stated in a clear way that minimizes the influence of confounding factors
+Testable hypotheses
+There is no one single best way to articulate a business opportunity as a testable hypothesis. In some cases the statement will be intuitive, but in other cases there will be some back and forth with stakeholders and domain experts.
+
+Guidelines for creating testable hypotheses
+Become a scientist of the business
+Spend a little bit less time learning new algorithms and Python packages and more time learning the levers that make your specific business go up or down and the variables that impact those levers.
+
+Make an effort to understand how the data are produced
+If it comes down to it, sources of variation can be explicitly accounted for in many types of models. If the data come from a database you should ask about the process by which the data are stored. If the data are compiled by another person then dig into the details and find out about the compiling process as well as the details of what happened before the data arrived on their desk.
+
+Make yourself part of the business
+Do not under any circumstances become siloed. Proactively get involved with the business unit as a partner, not a support function.
+
+Think about how to measure success
+When thinking about what course of action might be most appropriate, keep at the forefront of your mind how you will measure business value when said action is complete.
+
+IMPORTANT:  Data Science is NOT Business Intelligence. BI analysts serve to derive business insights out of data. There is without a doubt some overlap, but the job of a data scientist is to investigate the business opportunity and solve it.  
+
+There is a balancing act to maintain between directly addressing the business need and ensuring that you have thoughtfully studied the problem enough to ensure that you can account for most of the likely contingencies. The scientific method can be of some guidance here.
+
+Thinking scientifically about the business scenario
+A major goal of this process is to make the business objectives clear to leadership. Some of these individuals are technical and some are not, so as a good rule-of-thumb get in the habit of articulating the business problem at a level that everyone can understand. Stakeholders and leadership need to know what you are trying to accomplish before you begin work. They also need to be aware from the start what success would look like. Science is an iterative process and many experiments produce results that some might consider a failure. However, experiments that are properly setup will not fail no matter the result–the result may not useful but you have gained valuable information along the way.
+
+Experiments in this context could refer to an actual scientific experiment (e.g. A/B testing) or it could be more subtle. Let’s say you work for a company that collects tolls in an automated way, and you want to identify the make and model of each car in order to modify pricing models based on predicted vehicle weight. After talking with the stakeholders and the folks who implemented the image storage solution you are ready to begin. The experiment here has to do with how you begin. You may think that there is enough training data to implement a huge multi-class model and just solve most of the problem. If you approach it that way then you are hypothesizing that the solution will work.
+
+For those of you who have done much image analysis work, you could guess that approach would likely result in a significant loss of time. If we take a step back and think scientifically, we could approach the solution from an evidence driven perspective. Before investing a significant amount of time you may try to see if you can distinguish one make and model from the rest before adding more classes. You may want to first pipe the images through an image segmentation algorithm to identify the make of the car. There are many possible ways to build towards a comprehensive solution, but it is important to determine if either of these piecemeal approaches would have any immediate business value.
+
+This might be a good time for a reminder about the steps in the scientific method.
+
+The Scientific Method
+It is the process by which science is carried out. The general idea is to build on previous knowledge to in order to improve an understanding of a given topic. 
+
+Formulate the question
+Generate a hypothesis to address the question
+Make a prediction
+Conduct an experiment
+Analyze the data and draw a conclusion
+We will continue with an interactive example, but first it is important to note that Scientific experiments must be repeatable in order to become reliable evidence. 
+
+Question
+The question can be open-ended and generally it summarizes your business opportunity. Let’s say you work for a small business that manufactures sleds and other winter gear and you are not sure which cities to build your next retail locations. You have heard that Utah, Colorado and Vermont are all states that have high rates of snowfall, but it is unclear which one has the highest rate of snowfall.
+
+Hypothesis
+Because the Rocky mountains are higher in elevation and they are well-known for fresh powder on their ski slopes, you hypothesize that both Utah and Colorado have more snow than Vermont.
+
+Prediction
+If you were to run a hypothesis test, you would find that Vermont has significantly less snow fall than Colorado or Utah
+
+Experiment
+You hit the NOAA weather API to get average annual snowfall by city. We have compiled these data for you in snowfall.csv. 
+
+
+Analyze
+There is not enough data to do a 1-way ANOVA. The experiment is not a failure; it has a few pieces of information.
+
+There is not enough data
+There is a small possibility that VT gets more snow on average than either CO or UT
+Our degree of belief in the conclusion drawn from (2) is very small because of (1)
+The notion of degree of belief is central to scientific thinking. It is somehow a part of our human nature to believe statements that have little to no supporting evidence. In science the word belief, with respect to a hypothesis is proportional to the evidence. With more evidence available, ideally, from repeated experiments, one’s degree of belief should change. Evidence is derived from the process described above and if we have none then we are stuck at the question stage and a proper scientific hypothesiscannot be made.
+
+The other important side to degree of belief is that it never caps out at 100 percent certainty. Some hypotheses have become laws like Newton’s Law of Gravitation, but most natural phenomena in the world outside of physics cannot be explained as a law.
+
+A hypothesis is the simplest explanation of a phenomenon. A scientific theory is an in-depth explanation of the observed phenomenon. Do not be mistaken with the word theory, there can be sufficient evidence that your degree of belief all but touches 100%, and is plenty for decision making purposes. A built-in safeguard for scientific thought is that our degree of belief does not reach 100%, which leaves some room to find new evidence that could move the dial in the other direction.
+
+There are additional factors like external peer review that help ensure the integrity of the scientific method and in the case of implementing a model for a specific business task this could mean assigning reviewers for a pull request or simply asking other qualified individuals to check over your work.
