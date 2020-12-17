@@ -322,3 +322,13 @@ Spreadsheet programs like Microsoft Excel that are used for analyzing tabular da
 
 HINT:  A best practice when loading data from plain text or delimited files is to separate the code for parsing into its own script. Because the files are read line by line in a separate Python call, it is more memory efficient and this separation of tasks helps with automation and maintenance.
 
+
+
+# 8. Data Collection: Summary/Review
+- In this module you should have learned:
+
+- Stakeholder or domain expert opinion, feasibility and impact are three of the most important factors when prioritizing business opportunities
+The practice of articulating a business opportunity, with the data in mind, as a testable hypothesis helps keep the overall project linked to the business needs
+The notion of degree of belief is important when making statements both in science and in business. No statement has 100% degree of belief, it is some percentage of 100% that is a reflection of accumulated evidence.
+
+-The scientific method helps formalize a process for rationalizing business decisions through experimentation and evidence
