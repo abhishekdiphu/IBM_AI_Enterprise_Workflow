@@ -286,7 +286,7 @@ There are additional factors like external peer review that help ensure the inte
 
 
 
-#### Gathering Data
+# 7.Gathering Data
 
 
 #### Documenting your data
