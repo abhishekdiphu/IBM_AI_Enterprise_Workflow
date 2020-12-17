@@ -78,17 +78,7 @@ EDA: Exploratory Data Analysis
 Exploratory data analysis (EDA) is the process of analyzing data sets to create summaries and visualizations of the data. These summaries and visualizations are then used to guide the use of the data for solving business challenges.  
 If we continue with the book example we could first read the data back in  
 
-12
-# Make sure sherlock-holmes.txt is in the current working directory
-text = open('sherlock-holmes.txt', 'r').read()
-then split it into sentences and clean it up.
 
-1234
-import re
-stop_pattern = '\.|\?|\!'
-sentences = re.split(stop_pattern, text)
-sentences = [re.sub("\r|\n"," ",s.lower()) for s in sentences]
-Next, let’s stage the data in an environment where we can perform EDA. Let’s assume that we’ve already gone through the texts and annotated them according to whether sentences were about Mr. Holmes or Dr. Watson. These annotations are stored in a .csv (sherlock-holmes-annotations.csv) that you can download using the link below. From here, you can create a pandas dataframe that contains the texts and those annotations.
 
 
 ### Ideate
@@ -122,7 +112,7 @@ To illustrate the process to the end shown below is a Support Vector Machine wit
 from sklearn.linear_model import SGDClassifier
 from sklearn.model_selection import train_test_split
 
-## carry out the train test split
+carry out the train test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
 
 from sklearn.linear_model import SGDClassifier
