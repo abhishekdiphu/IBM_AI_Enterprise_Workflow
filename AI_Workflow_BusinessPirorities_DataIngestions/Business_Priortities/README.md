@@ -214,30 +214,31 @@ Pulling in data and jumping right into exploratory data analysis can make your w
 
 At the heart of this problem is the process of communicating results to leadership. It should begin with a meaningful and well-articulated business opportunity. If that opportunity is stated too simply, as say, increasing overall revenue then the central talking point for communication is too vague to be meaningful from the data side.
 
-The business scenario needs to be communicated in a couple of ways:
+#### The business scenario needs to be communicated in a couple of ways:
 1.  Stated in a testable way in terms of data
 2.  Stated in a clear way that minimizes the influence of confounding factors
-Testable hypotheses
+
+#### Testable hypotheses
 There is no one single best way to articulate a business opportunity as a testable hypothesis. In some cases the statement will be intuitive, but in other cases there will be some back and forth with stakeholders and domain experts.
 
-Guidelines for creating testable hypotheses
+#### Guidelines for creating testable hypotheses
 Become a scientist of the business
 Spend a little bit less time learning new algorithms and Python packages and more time learning the levers that make your specific business go up or down and the variables that impact those levers.
 
-Make an effort to understand how the data are produced
+#### Make an effort to understand how the data are produced
 If it comes down to it, sources of variation can be explicitly accounted for in many types of models. If the data come from a database you should ask about the process by which the data are stored. If the data are compiled by another person then dig into the details and find out about the compiling process as well as the details of what happened before the data arrived on their desk.
 
-Make yourself part of the business
+#### Make yourself part of the business
 Do not under any circumstances become siloed. Proactively get involved with the business unit as a partner, not a support function.
 
-Think about how to measure success
+#### Think about how to measure success
 When thinking about what course of action might be most appropriate, keep at the forefront of your mind how you will measure business value when said action is complete.
 
 IMPORTANT:  Data Science is NOT Business Intelligence. BI analysts serve to derive business insights out of data. There is without a doubt some overlap, but the job of a data scientist is to investigate the business opportunity and solve it.  
 
 There is a balancing act to maintain between directly addressing the business need and ensuring that you have thoughtfully studied the problem enough to ensure that you can account for most of the likely contingencies. The scientific method can be of some guidance here.
 
-Thinking scientifically about the business scenario
+#### Thinking scientifically about the business scenario
 A major goal of this process is to make the business objectives clear to leadership. Some of these individuals are technical and some are not, so as a good rule-of-thumb get in the habit of articulating the business problem at a level that everyone can understand. Stakeholders and leadership need to know what you are trying to accomplish before you begin work. They also need to be aware from the start what success would look like. Science is an iterative process and many experiments produce results that some might consider a failure. However, experiments that are properly setup will not fail no matter the result–the result may not useful but you have gained valuable information along the way.
 
 Experiments in this context could refer to an actual scientific experiment (e.g. A/B testing) or it could be more subtle. Let’s say you work for a company that collects tolls in an automated way, and you want to identify the make and model of each car in order to modify pricing models based on predicted vehicle weight. After talking with the stakeholders and the folks who implemented the image storage solution you are ready to begin. The experiment here has to do with how you begin. You may think that there is enough training data to implement a huge multi-class model and just solve most of the problem. If you approach it that way then you are hypothesizing that the solution will work.
@@ -246,7 +247,7 @@ For those of you who have done much image analysis work, you could guess that ap
 
 This might be a good time for a reminder about the steps in the scientific method.
 
-The Scientific Method
+#### The Scientific Method
 It is the process by which science is carried out. The general idea is to build on previous knowledge to in order to improve an understanding of a given topic. 
 
 Formulate the question
@@ -256,20 +257,20 @@ Conduct an experiment
 Analyze the data and draw a conclusion
 We will continue with an interactive example, but first it is important to note that Scientific experiments must be repeatable in order to become reliable evidence. 
 
-Question
+#### Question
 The question can be open-ended and generally it summarizes your business opportunity. Let’s say you work for a small business that manufactures sleds and other winter gear and you are not sure which cities to build your next retail locations. You have heard that Utah, Colorado and Vermont are all states that have high rates of snowfall, but it is unclear which one has the highest rate of snowfall.
 
-Hypothesis
+#### Hypothesis
 Because the Rocky mountains are higher in elevation and they are well-known for fresh powder on their ski slopes, you hypothesize that both Utah and Colorado have more snow than Vermont.
 
-Prediction
+#### Prediction
 If you were to run a hypothesis test, you would find that Vermont has significantly less snow fall than Colorado or Utah
 
-Experiment
+#### Experiment
 You hit the NOAA weather API to get average annual snowfall by city. We have compiled these data for you in snowfall.csv. 
 
 
-Analyze
+#### Analyze
 There is not enough data to do a 1-way ANOVA. The experiment is not a failure; it has a few pieces of information.
 
 There is not enough data
