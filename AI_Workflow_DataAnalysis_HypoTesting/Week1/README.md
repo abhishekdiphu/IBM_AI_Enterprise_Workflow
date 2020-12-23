@@ -66,5 +66,17 @@ Observation and Reflection.
 IMPORTANT:  For some business opportunities, a sound solution can be easily identified through thoughtful data visualization. Models are not always a part of the AI workflow.
 
 
+# Some popular libraries :
 
+- Bokeh  -  Bokeh supports streaming, real-time data and is used to create interactive, web-ready plots, which can output as JSON objects, HTML documents, or interactive web applications.
+
+- plotly  -  While plotly is widely known as an online platform for data visualization, it can be accessed from a Python notebook. Like Bokeh, Plotly’s strength lies in making interactive plots, and it offers some charts not found in most libraries, like contour plots.
+
+- dash  -  Dash is Python framework for building web applications. It built on top of Flask, Plotly.js, React and React Js. It enables you to build dashboards using pure Python.
+
+- ggplot  -  ggplot is a Python visualization library based on R’s ggplot2 and the Grammar of Graphics. It lets you construct plots using high-level grammar without thinking about the implementation details.
+
+- folium  -  Based on leaflet.js, it is a great tool for working with geographic data for example choropleth visualizations.
+
+- Analytics dashboard in IBM Watson Studio  -  You can build sophisticated visualizations of your analytics results, communicate the insights that you’ve discovered in your data on the dashboard and then share the dashboard with others.
 
