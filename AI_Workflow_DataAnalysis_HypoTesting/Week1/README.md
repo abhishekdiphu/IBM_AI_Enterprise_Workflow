@@ -135,11 +135,12 @@ In this case the missing data depend on unmeasured or unknown variables. There i
 
 
 
-
+-----------------------------
 # SUMMARY :
-# -----------------------------
+-----------------------------
 ## Exploratory Data Analysis
-#####The main goals of EDA are:
+##### The main goals of EDA are:
+
 Provide summary level insight into a data set
 Uncover underlying patterns and structure in the data
 Identify outliers, missing data and class balance issues
@@ -152,7 +153,8 @@ Investigate - Using data visualization and hypothesis testing delve into the rel
 Communicate - Communicate the findings from the above steps
 
 
-##Data visualization
+## Data visualization
+
 Jupyter notebooks in combination with pandas and simple plots are the basis for modern EDA when using Python as a principal language.
 Advantages of Jupyter notebooks:
 They are portable: They can be used locally on private servers, public cloud, and as part of IBM Watson Studio
@@ -166,12 +168,14 @@ Keep a record of plots and visualization code that you create. It is difficult t
 Use you plots as a quality assurance tool. Given what you know about the data it can be useful to make an educated guess before you execute the cell or run the script. This habit is surprisingly useful for quality assurance of both data and code.
 
 ## Missing values
+
 Dealing with missing data sits at the intersection of EDA and data ingestion in the AI enterprise workflow
 Ignoring missing data may have unintended consequences in terms of model performance that may not be easy to detect
 Removing either complete rows or columns in a feature matrix that contain missing values is called complete case analysis
 Complete case analysis, although commonly used, can lead to undesirable results. The category or categories of missingness present in the data can significantly impact the quality of these results. 
 
 ### The categories of missingness are:
+
 Missing completely at random or MCAR
 Missing at random or MAR
 Missing not at random or MNAR
