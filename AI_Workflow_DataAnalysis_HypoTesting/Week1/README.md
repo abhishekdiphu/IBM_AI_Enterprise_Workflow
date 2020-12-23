@@ -190,6 +190,20 @@ It is a common practice to perform multiple imputations
 The practice of imputing missing values introduces uncertainty into the results of a data science project
 One way to deal with that additional uncertainty is to try a range of different values for imputation and measure how the results vary between each set of imputations. This technique is known as multiple imputation
 
+### Bayesian Imputation
+While missing values are usually handled prior to the modeling phase of a data science project, it is worth noting an exception where missing values can be handled automatically as part of the modeling process. This is is the case when a model is treated in a fully Bayesian way, that is priors are used to govern parameters of the model. Then Expectation-Maximization, Markov Chain Monte Carlo (MCMC) or another method of inference can be use to infer both the parameters, hyper-parameters and missing values.
+
+##### See the following resources to learn more.
+
+1. PyMC3  -  package for probabilistic programming in Python.
+
+2. TensorFlow Probability  -  another package for Python that enables the Bayesian treatment of models
+
+3. PyMC3 Getting Started  - continue on to Case Study 2 to see how missing values are automatically imputed during inference
+
+
+
+
 
 ## CASE STUDY: Data visualization: 
 It can be easy to get lost in the details of the findings when communicating the finding from EDA to business stakeholders. Project planning and milestones are important so remember to talk about what you:
