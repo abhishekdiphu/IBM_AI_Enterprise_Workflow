@@ -56,5 +56,15 @@ Data scientists are largely familiar with EDA, its benefits and its place in the
 - what are you doing. 
 - what you plan to do.  
 
+during the  "THE DESIGN THINKING PROCESS"
+
+Your other team members are working with AAVAIL team members on the Empathize phase of their design thinking process. They are gathering data and facts related to AAVAIL’s business challenges and will be presenting that to everyone in a playback after it is summarized.
+
+#### Your data visualization deliverables will become an important part of a playback! It is part of one of the key principles of design thinking:
+Observation and Reflection.
+
+IMPORTANT:  For some business opportunities, a sound solution can be easily identified through thoughtful data visualization. Models are not always a part of the AI workflow.
+
+
 
 
