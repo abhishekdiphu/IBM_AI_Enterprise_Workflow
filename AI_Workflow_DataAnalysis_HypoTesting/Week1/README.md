@@ -46,3 +46,15 @@ Data scientists are largely familiar with EDA, its benefits and its place in the
 3. Identify a strategy to deal with missing values
 4. Investigate the data and underlying business scenario with visualizations and hypothesis testing
 5. Communicate your findings
+
+
+
+
+# Data Visualization:
+
+- what you have done. 
+- what are you doing. 
+- what you plan to do.  
+
+
+
