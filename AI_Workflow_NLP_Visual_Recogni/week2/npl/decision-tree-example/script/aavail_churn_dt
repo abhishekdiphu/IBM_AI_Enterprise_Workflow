@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<singapore &le; 0.5<br/>gini = 0.411<br/>samples = 800<br/>value = [569, 231]<br/>class = subscriber>, fillcolor="#f0b489"] ;
+1 [label=<num_streams &le; 0.368<br/>gini = 0.268<br/>samples = 565<br/>value = [475, 90]<br/>class = subscriber>, fillcolor="#ea995f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<age &le; -0.221<br/>gini = 0.206<br/>samples = 275<br/>value = [243, 32]<br/>class = subscriber>, fillcolor="#e89253"] ;
+1 -> 2 ;
+3 [label=<gini = 0.229<br/>samples = 106<br/>value = [92, 14]<br/>class = subscriber>, fillcolor="#e99457"] ;
+2 -> 3 ;
+4 [label=<gini = 0.19<br/>samples = 169<br/>value = [151, 18]<br/>class = subscriber>, fillcolor="#e89051"] ;
+2 -> 4 ;
+5 [label=<aavail_premium &le; 0.5<br/>gini = 0.32<br/>samples = 290<br/>value = [232, 58]<br/>class = subscriber>, fillcolor="#eca06a"] ;
+1 -> 5 ;
+6 [label=<gini = 0.294<br/>samples = 179<br/>value = [147, 32]<br/>class = subscriber>, fillcolor="#eb9c64"] ;
+5 -> 6 ;
+7 [label=<gini = 0.359<br/>samples = 111<br/>value = [85, 26]<br/>class = subscriber>, fillcolor="#eda876"] ;
+5 -> 7 ;
+8 [label=<aavail_basic &le; 0.5<br/>gini = 0.48<br/>samples = 235<br/>value = [94, 141]<br/>class = churned>, fillcolor="#bddef6"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<gini = 0.377<br/>samples = 135<br/>value = [34, 101]<br/>class = churned>, fillcolor="#7cbeee"] ;
+8 -> 9 ;
+10 [label=<gini = 0.48<br/>samples = 100<br/>value = [60, 40]<br/>class = subscriber>, fillcolor="#f6d5bd"] ;
+8 -> 10 ;
+}
