@@ -5,7 +5,7 @@
 **[IBM_AI_Enterprise_Workflow](https://www.coursera.org/specializations/ibm-ai-workflow?)**
 
 
-# Data at scale: Through the Eyes of Our Working Example
+# 1. Data at scale: Through the Eyes of Our Working Example
 
 ## THE DESIGN THINKING PROCESS:
 
@@ -20,3 +20,50 @@ Some business opportunities can be solved by running a tuned model once on all a
 Depending on the needs of your business, it is possible that a sizable percentage of models exist as standalone projects that would provide little added value if they were deployed. It is also possible that nearly all models need to be deployed in production to be of benefit to the business. Either way it is likely that model deployment will become a necessity at some point and optimization is a key consideration for any model or service that is to be deployed.
 
 
+# 2.Optimizing Performance in Python:
+
+Today data scientists have more tooling than ever before to create model-driven or algorithmic solutions. Because of tooling availability and a general rising interest in the field of data science, many practicing data scientists only have a few years of experience. This trend has resulted in a lack of awareness when it comes to code optimization. There are many ways to increase the speed of code and for some business applications speed is directly related to revenue. Before we jump into the strategies and tools to help optimize code, it is important to know when to take the time to make code optimizations.
+
+An example of a situation where it is difficult to make speed improvements through code is when we have a model that takes several days on multiple GPUs to train. A speech-to-text engine is a good example, but almost any large neural network with a reasonable amount of data falls into this category. You can profile TensorFlow models using TensorBoard, but if you have already optimized the model for performance, it becomes tricky to make improvements from a code perspective. You can always use more GPUs or other computational resources, but beyond saving model checkpoints in the event that there is a failure, little can be done to improve training time.
+
+With scikit-learn model training it is also difficult to optimize, apart from using the \verb|njobs|njobs argument and trying several optimization algorithms when appropriate. In general, unless you write your own inference portion of the code, as is sometimes the case with expectation-maximization, improving on the efficiency of available inference algorithms is either difficult or unrealistic. For model prediction there are several best practices, such as keeping the trained model in memory, that we will discuss later that will help ensure optimized performance.
+
+There are plenty of examples where a well-written script addresses a business opportunity even without the use of machine learning. Perhaps the AAVAIL sales team wanted to optimize quarterly travel schedules. This would be an example of the traveling salesman problem where you could write a brute-force algorithm or use some variant on a minimal spanning tree to solve it. Either way, these are useful tools that do not use machine learning algorithms.
+
+## Two important areas of data science where machine learning algorithms may not be the best solution are:
+
+- optimization
+- graph theory
+The first rule to ensuring that you are optimizing your code in a smart way is to look around for implementations before creating one from scratch. The scipy.optimize submodule has a number of optimizers and algorithms (some of them general purpose) already implemented. If your problem is in graph space like customer journeys or social networks then check out the algorithms implemented by NetworkX before you set off building your own.
+
+Finally, we come to the scripts or blocks of code that need speed improvements, but you have come to the conclusion that there is no optimized code readily available. The task of optimizing the code then falls to you. The first step is to identify which parts of your code are bottlenecks. This is done using profiling or more specifically Python profilers. Once the specific pieces of code that need to be optimized are identified, then there are a number of common tools that may be used to improve the speed of programs. Several of these tools make use of the fact that modern computers have multiple available processor cores on a machine. To see how many processor cores are available on your machine or compute resource try the following code.
+
+1234
+from multiprocessing import Pool, cpu_count
+total_cores = cpu_count()
+print('total cores: ', total_cores)
+
+1
+total cores: 8
+A list of commonly used techniques and tools to optimize code:
+Use appropriate data containers - For example, a Python set has a shorter look-up time than a Python list. Similarly, use dictionaries and NumPy arrays whenever possible.
+
+Multiprocessing - This is a package in the standard Python library and it supports spawning processes (for each core) using an API similar to the threading module. The multiprocessing package offers both local and remote concurrency.
+
+Threading - Another package in the standard library that allows separate flows of execution at a lower level than multiprocessing.
+
+Subprocessing - A module that allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. You may run and control non-Python processes like Bash or R with the subprocessing module.
+
+mpi4py - MPI for Python provides bindings of the Message Passing Interface (MPI) standard for the Python programming language, allowing any Python program to exploit multiple processors.
+
+ipyparallel - Parallel computing tools for use with Jupyter notebooks and IPython. Can be used with mpi4py.
+
+Cython - An optimizing static compiler for both the Python programming language and the extended Cython programming language. It is generally used to write C extensions for slow portions of code.
+
+CUDA (Compute Unified Device Architecture) - Parallel computing platform and API created by Nvidia for use with CUDA-enabled GPUs. CUDA in the Python environment is often run using the package PyCUDA.
+
+Additional materials
+scipy-lectures tutorial for optimizing code
+mpi4py tutorial
+ipyparallel demos
+Cython tutorial
