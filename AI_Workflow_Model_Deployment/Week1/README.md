@@ -67,3 +67,34 @@ scipy-lectures tutorial for optimizing code
 mpi4py tutorial
 ipyparallel demos
 Cython tutorial
+
+
+
+
+# 3.High Performance Computing
+
+We mentioned in a previous section that inference can be difficult to optimize and that one way around this is to add more GPUs. The general idea of using an aggregation of compute resources to dramatically increase available compute resources is known as high-performance computing (HPC) or supercomputing. Within this field there is the important concept of parallel computing, which is exactly what we enable by adding multiple GPUs to computation tasks.
+
+Supercomputers and parallel computing can help with model training, prediction and other related tasks, but it is worth noting that there are two laws that constrain the maximum speed-up of computing: Amdahl’s law and Gustafson’s law. Listed below is some of the important terminology in this space.
+
+Symmetric multiprocessing - Two or more identical processors connected to a single unit of memory.
+
+Distributed computing - Processing elements are connected by a network.
+
+Cluster computing - Group of loosely (or tightly) coupled computers that work together in a way that they can be viewed as a single system.
+
+Massive parallel processing - Many networked processors, usually > 100, used to perform computations in parallel.
+
+Grid computing - distributed computing making use of a middle layer to create a virtual super computer.
+
+An important part of this course is dealing with data at scale, which is closely related to both code optimization and parallel computing. In this course will be using Apache Spark, a cluster-computing framework, to enable parallel computing.
+
+If we talk about scale in the context of a program or model, we may be referring to any of the following questions. Let the word service in this context be both the deployed model and the infrastructure.
+
+Does my service train in a reasonable amount of time given a lot more data?
+Does my service predict in a reasonable amount of time given a lot more data?
+Is my service ready to support additional request load?
+It is important to think about what kind of scale is required by your model and business application in terms of which bottleneck is most likely going to be the problem associated with scale. These bottlenecks will depend heavily on available infrastructure, code optimizations, choice of model and type of business opportunity. The three questions above can serve as a guide to help put scale into perspective for a given situation.
+
+Additional resources
+High performance computing at IBM
