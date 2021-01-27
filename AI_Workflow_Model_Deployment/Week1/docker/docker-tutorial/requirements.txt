@@ -1,0 +1,7 @@
+
+cython
+numpy
+flask
+pandas
+scikit-learn==0.20.4
+joblib
