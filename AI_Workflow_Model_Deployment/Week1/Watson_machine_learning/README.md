@@ -59,3 +59,41 @@ Your terminal is now the bash of your container, from this shell you can run pyt
 
 Important : Every editing that you do on the script inside a container are not saved locally! The files in your containers are completely isolated form your local computer. If you exit and delete your container you will loose all the modifications you made inside this container.
 
+
+
+# Tutorial (Hands-on)
+1. Run a new bash of your python image. 
+
+1
+~$ docker run -it my-python-env bash
+2. Deploy the model
+
+Before running our deployment script WML-tutorial-deploy-model.py you need to edit it with your deployment space id. You will need to do these editing directly from the bash of your container to make sure you are editing the files stored on your container. Remember your container is isolated from your local computer, when we built the image we added a command that copied all the original files from your local directory (especially the data and the scripts) so the containers that you create from this image contains all the copied original scripts and data. Editing your local files will not modify the files in your container. You can edit the files in your container directly from the bash of the container using the VIM text editor. To open and edit a script you can use the command vi.
+
+1
+~$ vi WML-tutorial-deploy-model.py
+You can now copy paste the deployment space id by the space ID of your deployment space. Once edited type :wq on your keyboard and press enter to save and return to the command line interface (CLI). Your file has been edited.
+
+We recommend you to open the script WML-tutorial-deploy-model.py either locally with your favorite text editor or directly from the terminal via the vi command and carefully look through the procedure for deploying a model. Make sure you understand all the steps.
+
+You can now run the deployment script from the container's bash.
+
+1
+~$ python WML-tutorial-deploy-model.py
+O​nce the script has run, two tokens are printed : The \verb|model_uid|model_uid and the \verb|deployment_uid|deployment_uid copy these values and save them in a text file. We will need them to test the deployment.
+
+3. Now we will test the deployment with the script WML-tutorial-test-model.py
+
+Edit the the test script
+
+1
+~$ vi WML-test-deploy-model.py
+
+Replace the Deployment space ID, the deployment UID and the model UID. Type :wq and press enter to save the modifications.  Then, run the test script.
+
+1
+~$ python WML-test-deploy-model.py 
+
+See the API documentation of WML for more details about the interface. Also, see this related tutorial to deploy a scikit-learn model for another example.
+
+We encourage you to try this with other models. Note that the lite plan for Watson Studio will only allow one instance of WML at a time, but it does allow several models.
