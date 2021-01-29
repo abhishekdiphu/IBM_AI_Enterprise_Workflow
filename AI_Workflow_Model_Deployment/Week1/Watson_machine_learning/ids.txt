@@ -1,0 +1,3 @@
+deployment_uid='f0235095-aa4b-47eb-94e5-4e89337c245b'
+
+model uid : 75e68ecc-3d1d-4587-ae92-fa9a7d2f38f0
