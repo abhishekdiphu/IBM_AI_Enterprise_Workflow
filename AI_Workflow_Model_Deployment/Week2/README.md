@@ -63,3 +63,30 @@ THE DESIGN THINKING PROCESS
 This case study will allow you to learn the actual methods you’ll be working with in a fast-moving Design Thinking project.
 
 Keep in mind that you’re using Apache Spark to make scaling the model much easier, and Docker will help you to more quickly deploy different versions of your models. These skills are important because you’re focused on the end user, and building solutions for end users in a Design Thinking project means you have to move quickly.
+
+
+
+# Spark Machine Learning
+There are two APIs for Spark MLlib. The RDD-based API and the dataframe based API, which is often referred to as Spark ML. Each has its own documentation.
+
+Spark MLlib docs
+Spark ML docs
+Spark MLlib has a suite of available tools for unsupervised learning—namely dimension reduction and clustering. For clustering K-means and Gaussian Mixture Models (GMMs) are the main tools. Latent Dirichlet Allocation (LDA) is available as a tool for clustering over documents of natural language.
+
+Spark clustering documentation
+Spark MLlib has a number of available supervised learning algorithms that is classification and regression. Many of the commonly used algorithms have been implemented including: random forests, gradient boosted trees, linear support vector machines and even basic multilayer perceptrons.
+
+Spark MLlib - supervised learning
+Spark Recommenders
+The majority of modern recommender systems embrace either a collaborative filtering or a content-based approach. A number of other approaches and hybrids exists making some implemented systems difficult to categorize.
+
+Collaborative filtering - Based of a ratings matrix collaborative filtering is a family of methods that infers a subset of users that have behavior similar to a particular user. The items preferred by these users are combined and filtered to create a ranked list of recommended items.
+
+Content-based filtering - Predictions are made based on the properties/characteristics of an item. User behavior is not considered.
+
+Matrix factorization is a class of collaborative filtering algorithms used in recommender systems. Matrix factorization algorithms work by decomposing the user-item interaction matrix into the product of lower dimensionality matrices.
+
+There are several Python packages available to help create recommenders including surprise. Because scale with respect to prediction is often a concern for recommender systems many production environments use the implementation found in Spark MLlib. The Spark collaborative filtering implementation uses Alternating least Squares.
+
+CASE STUDY: model deployment
+We used a Docker image to create a local Spark environment. In this environment a recommender systems was created using Spark MLlib’s collaborative filtering implementation. The model itself was tuned, by modifying hyperparameters and by toggling between implicit and explicit versions of the underlying algorithm. \verb|spark-submit|spark-submit was used to simulate a deployed model.
