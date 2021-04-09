@@ -38,3 +38,25 @@ This is an important and often overlooked feedback loop. Once a model has been i
 If a model performs poorly in production, perhaps due to latency issues or because there is an over-fitting issue, it is reasonable to return to try a different model. If it is an overfitting scenario and obtaining more data is not an option, choosing a model with lower complexity (e.g. SGDClassifier) is a reasonable next step. Spark ML models tend to have more latency than deployed scikit-learn models. Latency is the effective runtime for a prediction. You can run simulations to test different models, which can help optimize for latency. Another reason to return to the \verb|models|models stage from production is if we observe performance drift (a topic covered in the next unit).
 There are other feedback loops such as trying different data transformations to improve a model’s performance or optimizing the way data are collected to reduce the number of transformations that are necessary to run a machine learning model. The most important aspect of all feedback loops is that they end with a return to a previous stage of the workflow. This is the only way to ensure that your entire workflow does not contain a weak link, and also the best way to keep track of each stage of the workflow.
 
+
+
+# Unit tests
+
+Unit testing is the process of testing small portions of the software, also known as units. This is done one test at a time, to verify that an expected result is returned under controlled conditions. Importantly, the unit tests are usually organized as a suite and return objective evidence, in the form of a boolean value, which is a key element that enables workflow automation. The boolean value indicates whether or not each and every part of the software that was tested performed as expected. Ideally every portion of the code would be tested under every conceivable combination of conditions, however this is clearly not possible in the real world. The amount of source code that is actually tested when compared to the total amount of testable code is known as test coverage. There is even a package in Python called coverage that estimates the total coverage of your tests.
+
+Important
+There is an important trade-off in data science between the amount of test coverage and prioritizing other tasks. In many ways this trade-off is the same as the one that software engineers face, except data science has a sizable component of experimentation. This means that many models that get created never see production and many models that see production never come to fruition. There are many reasons for this and the AI workflow presented here is designed to minimize this risk, but nonetheless many modeling efforts are shelved. Because of this, we present as part of the overall workflow a way to properly include unit tests, but we do so in a way that includes only a minimum number of tests along with the scaffolding to expand once a model or service proves its worth.
+It is important to think about opportunity cost when determining the appropriate amount of test coverage. We will refer to the unit testing approach presented here as a test harness, because it is implemented as an automated test framework. Much like data ingestion, the idea is to have the necessary components of a task bundled under a single script. In this case it will be called \verb|run-tests.py|run-tests.py. To help ensure that our unit tests are a test harness we will use the script to setup a hook.
+
+The field of software testing is out of the scope of this specialization, but it is worth noting that there are many viable testing frameworks and technologies that can be used in place of the approach presented here. One of the reasons to create unit tests is to ensure that iterative improvements to code do not break the functionality of the model or API. This is known as regression testing, because when the code does not perform as expected it is a regression. Including regression testing, here is a summary of the principal reasons to package unit tests with your deployed machine learning model:
+
+## Regression 
+Testing: Ensure that previously developed and tested software still performs after a change
+## Code Quality:
+Promote the use of well-written code along with well-conceived designs
+## Documentation: 
+Unit tests are a form of documentation that can help you and members of your team understand the details of how the software works, unit-by-unit
+## Automatic Performance Monitoring: 
+Having a suite of unit tests that are kicked off when training is performed can help monitor for performance drift in an automated way
+
+Unit tests also helps ensure that when software fails, it fails gracefully. This means it stops execution without causing additional errors and takes any steps, such as closing open connections or saving data to a file that may be necessary for recovery. This is an important aspect of software design that can save significant amounts of time when debugging a problematic query.
