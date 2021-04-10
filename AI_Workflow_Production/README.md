@@ -60,3 +60,84 @@ Unit tests are a form of documentation that can help you and members of your tea
 Having a suite of unit tests that are kicked off when training is performed can help monitor for performance drift in an automated way
 
 Unit tests also helps ensure that when software fails, it fails gracefully. This means it stops execution without causing additional errors and takes any steps, such as closing open connections or saving data to a file that may be necessary for recovery. This is an important aspect of software design that can save significant amounts of time when debugging a problematic query.
+
+
+## Unit Testing in Python
+Three of the most useful libraries in Python to carry out unit testing are:
+
+- pytest
+- nose
+- unittest
+
+## Test-Driven Development (TDD)
+Traditionally, software developers write software by first writing their functions, algorithms, classes, etc… and then, once they are satisfied that everything is working, they write a series of unit tests to provide objective evidence that it works as expected. The downside to this approach is that, without a defined completion criteria, it may result in writing more code than is necessary, and, without a clear definition of the expected outcome, the programmer might not know what completion criteria they are working towards until late in the process.
+
+Test-Driven Development extends the idea of unit testing by recognizing that the sucessful completion of the test is the most important outcome of the software development process. Assuming the test is well-written and has sufficient coverage, any code that produces an ‘OK’ is ready for production; any code that does more than this is simply superfluous. TDD can have the same effect as using pseudocode to template a piece of software or a script before writing the code. When working on large software projects, it is easy to get caught up in non-essential portions of the code. TDD and pseudocode can serve as a checklist of tasks that need to be completed to obtain that all-import boolean result: ‘OK’. This can help keep you within a pre-defined set of boundaries all the way through the development process, saving time and effort.
+
+To this end, TDD starts by clearly defining the expected outcomes under various conditions first. We then write only enough code to achieve successful unit test results. There are other methodologies to produce completion criteria, some of which use requirement analysis as part of the software design process, but here we show a simple approach to demonstrate how unit testing through TDD can be used to build a test harness.
+
+
+### CI/CD
+In software engineering CI/CD, sometimes written as CICD, refers to continuous integration and continuous delivery. Depending on the context, CD may also refer to Continuous Deployment. CI/CD is a concept to be aware of when learning about the DevOps side of data science. Continuous Integration is the practice of merging all developers’ changes frequently (usually daily) into a single central source often called the trunk.
+
+Continuous Delivery refers to the iteration on software in short cycles using a straightforward and repeatable deployment process. Continuous Delivery uses manual deployments, which is in contrast to Continuous Deployment which makes use of automated deployments. The unit testing framework presented here can be readily integrated into several CI/CD pipelines. This is not a course in DevOps nor is it a course in data engineering, so we will not go so far as to make recommendations about deployment systems and architectures, but being aware of the terminology can promote cross-team functionality.
+
+Historically, software updates were deployed infrequently, perhaps once per year, and only after extensive, months-long testing cycles. CICD improves this process tremendously, allowing developers to see the results of their efforts almost immediately. However, the increased pace of change comes at the risk of introducing bugs. For this reason, CICD depends heavily on a robust testing process. Without automated testing, CICD would not be possible.
+
+Additional resources
+Why you should use microservices and containers
+Managed CI/CD Kubernetes services (IBM)
+GitHub actions
+Jenkins
+
+
+# Performance Monitoring: Through the Eyes of Our Working Example
+
+## Our Story
+You have seen how other data scientists on the AAVAIL team work and you now have a good idea what the lifecycle of a deployed model or service looks like. One thing that you have observed is that once a model has been running for some time, either management or senior members of the data science team will ask about how the model is doing. You have also noticed that most members of the team respond by talking about the same fundamental concepts: performance drift, load, latency, and average runtime.
+
+However, an important consideration that often gets overlooked is *business value*; is the model having a significant effect on business metrics as intended?  It is important to be able to use log files that have been standardized across the team to answer questions about business value as well as performance monitoring. 
+
+## THE DESIGN THINKING PROCESS
+Concerns about performance and monitoring are generally not raised in the design thinking process until the prototype or test phases. Indeed, performance monitoring is historically treated as an afterthought during implementation or long-term production support and is occasionally left as a consideration for other members of the team with specialized skills in systems optimization. Needless to say, planning for performance monitoring early in the process yields dividends down the line and eases the transition from development to production.
+
+
+## Logging
+Like all problems in data science, performance monitoring starts with collecting the right data in the right format. Because performance monitoring is a concern in nearly all customer-facing computer systems, there is a well-established set of tools and techniques for collecting this data. Data for performance monitoring is generally collected using log files. Recall the following best practice:
+
+Important
+Ensure that your data are collected at the most granular level possible. This means each data point should represent one user making one action or one event.
+Naturally, collecting very granular data will result in very large data sets. If there is a need, you can always summarize the data after it has been collected. Summary level data may mask important patterns and generally it is not possible to go from summary data to granular data. Log files with several million entries can be analyzed on a single node or on a personal machine with little overhead.  
+
+Note:  If the logging is handled by another member of your team or by another another team you should ensure that the minimally required data discussed here are available or it will be difficult to monitor your model’s performance and/or debug performance related issues.
+
+
+## Minimal Requirements for Log Files
+These are data that are minimally required for performance monitoring for most model deployment projects. There are other features that fall into this category that are situation dependent, like user_id in a recommendation system, so do not view this list as comprehensive, simply keep it as a reference starting point.
+
+- runtime - The total amount of time required to process the request. This is a factor that directly affects the end user’s experience and should be monitored.
+
+- timestamp - Timestamps are needed to evaluate how well the system handles load and concurrency. Additionally, timestamps are useful when connecting predictions to labels that are acquired afterwards. Finally, they are needed for the investigation of events that might affect the relationship between the performance and business metrics.
+
+- prediction - The prediction is, of course, the primary output of a predition model. It is necessary to track the prediction for comparison to feedback to determine the quality of the predictions. Generally, predictions are returned as a list to accommodate multi-label classification.
+
+- input_data_summary - Summarizing information about the input data itself. For the predict endpoint this is the shape of the input feature matrix, but for the training endpoint the features and targets should be summarized.
+
+- model_version_number - The model version number is used to better understand the influence of model improvements (or bugs) on performance.
+
+Additional features that can be optionally logged
+These are the features that are considered nice to have, but they are not always relevant to the circumstances or sometimes there can be practical limitations (e.g. disk space or computational resources) that limit the ability to save these features.
+
+- request_unique_id - Each request that has been made should correspond to an entry in the log file. It is possible that a request corresponds to more than one entry in the log file for example if more than one model is called. This is also known as correlation_id.
+
+- data - Saving the input features that were provided at the time of a predict request makes it much easier to debug broken requests. Saving the features and target at the time of training makes it easier to debug broken model training.
+
+- request_type - Relevant attributes about the request (e.g. webapp request, browser request).
+
+- probability - Probability associated with a prediction (if applicable).
+
+The value of logging most of the mentioned data is fairly intuitive, but saving the data itself might seem unnecessary. If we save the input features, when a predict endpoint was hit, we can reconstruct the individual prediction, stepping through each part of the prediction process. For training, the archiving of all the data is often unnecessary, because there is a system in place, like a centralized database, that can re-create the training data for a given point in time. One option is to archive only the previous iteration of training data.
+
+If very granular levels of performance monitoring are needed, we could model the distribution of each feature in the training data matrix and determine if new batches of data fall outside the normal range. We could also use one of the models we have discussed for novelty detection, but insight would be at the level of observations across all features rather than at the feature level. For most models the latter option is sufficient.
+
+Warning: If you decide to log the data, be aware of disk space and read/write bottlenecks. It is also important to ensure compliance with company policies or regulations such as HIPAA, or GDPR concerning personally identifiable or sensitive information, depending on jurisdiction.
