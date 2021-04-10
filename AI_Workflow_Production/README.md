@@ -141,3 +141,122 @@ The value of logging most of the mentioned data is fairly intuitive, but saving 
 If very granular levels of performance monitoring are needed, we could model the distribution of each feature in the training data matrix and determine if new batches of data fall outside the normal range. We could also use one of the models we have discussed for novelty detection, but insight would be at the level of observations across all features rather than at the feature level. For most models the latter option is sufficient.
 
 Warning: If you decide to log the data, be aware of disk space and read/write bottlenecks. It is also important to ensure compliance with company policies or regulations such as HIPAA, or GDPR concerning personally identifiable or sensitive information, depending on jurisdiction.
+
+
+## Model Performance Drift
+With a system for logging in place, the overall goal is to keep the performance of a model high over time, and ideally to see continuous improvement. The log files are key to identifying when a change has occurred, but it helps to know what kind of performance drift to expect. When we monitor model performance, we look for any significant changes in model performance, in order to both identify issues early and capitalize on changes that result in performance improvements.
+
+Note:  Software decay or software rot occurs when there is any decrease in model performance.
+
+Common forms of performance drift or software decay include:
+
+ concept drift
+sampling bias changes
+selection bias changes
+software changes
+data changes.  
+Each of these is covered below.
+
+Concept drift
+Concept drift, is when the statistical distribution of a target variable changes over time.  One example of this would be fraud detection.  If fraud was a fraction of a percentage of all known cases before we deployed a machine learning algorithm, it would be reasonable to assume that the percent of fraud will decrease over time, effectively changing the distribution.  The change will likely have consequences on model performance.  This type of drift would appear as decreased model performance, but you could also detect it by checking the training log files.
+
+Sampling bias and selection bias changes
+After a model is deployed, any newly introduced sampling bias. could result in subgroups of the data being under or over represented and the model would not generalize well to new data, which would decrease model performance.  Any newly encountered selection bias is also likely to affect model performance.
+
+For example, imagine a model was built to diagnose a specific medical  condition from a chest X-ray.  Perhaps the standards and technology have changed the way the radiologist makes a diagnosis,  implying that the way the labels were initially generated is different today than it was in the past.  Supervised learning in its  current form requires accurate and consistent labeling of targets.  If the process for labeling data has changed, it will  likely affect model performance.  We often observe the change in model performance through a detected outlier, but  it requires some investigation before the reason for performance drift can be confidently identified.
+
+Software changes
+Another cause of performance drift can come from changes in the the model and container software.  This is why we explicitly use a model version, used in conjunction with version control.  If a library dependency, code optimization, or feature addition were to blame for the performance drift it should be easy to track based on the model version.
+
+For example, imagine you have just converted a neural network into the newest version of TensorFlow or another deep-learning package.  This change should be tied to a specific model version.  You can create releases in GitHub or you may directly add tags to your docker image.  Additionally, there are many features in GitHub that help you track, review and ready version changes for code for deployment.  There are version control strategies specific to AI applications (this article is on Medium, and may require a subscription for access) as well.
+
+Data changes
+It is worth noting that performance drift can arise from changes in  the data itself, and it can be anticipated by directly monitoring the features in the data.  There are several methods that can be used to  compare an established distribution to a new one, e.g., from a new batch of training data.  It is also possible that for a  given use case there is a specific feature or two that are of critical importance and checks on those features should be  implemented as a step for quality assurance.  Two commonly used methods to compare distributions are:
+
+Kullback–Leibler divergence
+Wasserstein_metric
+We will show in the following screencast how to implement performance monitoring at the level of evaluation metric using a model-based approach.  This example could serve as a template to add more granular feature-level monitoring.
+
+
+
+
+## Security and Machine Learning Models
+Adversarial attacks of machine learning systems have become an indisputable threat. Attackers can compromise the training of machine learning models by injecting malicious data into the training set (poisoning attacks), or by crafting adversarial samples that exploit the blind spots of machine learning models at test time (evasion attacks). 
+
+Defending machine learning models involves certifying and verifying model robustness and model hardening with approaches such as:
+
+pre-processing inputs
+augmenting training data with adversarial examples
+leveraging runtime detection methods to flag any inputs that might have been modified by an adversary
+The resources listed below are for your reference and will help with understanding basic concepts around ML security.
+
+To learn more about machine learning adversarial attacks, defenses, and consequences, see A taxonomy and terminology of adversarial machine learning 
+Use a demo where you can create and simulate attacks and different defense methods for machine learning models
+Learn more about The Adversarial Robustness Toolbox, a Python library to verify model robustness
+Examples and hands-on tutorials to help you defend machine learning models against adversarial threats and make AI systems more secure and trustworthy
+
+
+
+## SUMMARY OF WEEK 1 : 
+
+Feedback Loops and Unit Testing
+Feedback loops are the possible paths that can be taken to iterate on the workflow. Any time new information or new results causes you to revise or revisit a previous decision or approach, it is a feedback loop. Data Science is an inherently experimental discipline, so you should strive to embrace the process of trying out different approaches. However, if not properly managed, the process of iteration can become bogged down in a miasma of tedious, manual steps, unforeseen impacts to code that was previously working and changes to environments and dependencies. The iterative process relies upon a smooth, automated, reliable and repeatable deployment process.
+
+
+Moving a model from development to production can be a tricky and time-consuming process. Any time the compute environment changes, there is a risk that something will break. Containers are used to overcome this problem and to handle other issues such as scalabilty. These containers allow for the precise, programmatic creation of compute environments that can be easily moved from one machine to another or deployed on multiple machines. A Docker container with endpoints that can be targeted programmatically is a powerful template for deploying models quickly, repeatably and at different scales according to demand.
+
+When iterating on a model, automation and performance monitoring are the two core principles to keep in mind. The purpose of iteration is to realize performance improvements. Without performance monitoring, there would be not point in iteration. Without automation, iteration can be difficult or impossible.
+
+Some of the feedback loops include:
+
+production –> business opportunity
+
+The business opportunity that was refined and decided on in the beginning is in some ways a statement of purpose for your models. If a model has less of an impact on the business than originally anticipated, this is often the first feedback loop that you will visit. It is a place to discuss the other potentially relevant feedback loops. Once all of the least time-consuming feedback loops have been explored, this is also the place where you discuss the opportunity cost of continued workflow iteration.
+production –> data collection
+
+This is a very common feedback loop especially when using deep-learning models. Because of their flexibility, neural networks can overfit a model. You may plot learning curves to help guide the decision to obtain more data. In some cases, obtaining more data means labeling more data which can be costly so ensure that you engage in discussions to determine the best course of action.
+production –> EDA
+
+This is an important and often overlooked feedback loop. Once a model has been in production for some time, it becomes necessary to investigate the relationship between model performance and the business metric. This can be thought of as an extension of EDA, where visualization and hypothesis testing are the most important tools. Investigations into the underlying causes of model performance drift can re-purpose much of the code developed during EDA.
+production –> model selection and development
+
+If a model performs poorly in production perhaps, due to latency issues or because there is an over-fitting issue, it is reasonable to try a different model. If it is an overfitting scenario and obtaining more data is not an option, choosing a model with lower complexity (e.g. SGSGDclassifier) is a reasonable next step. Spark ML models tend to have more latency than deployed scikit-learn models. Latency, is the effective runtime for a prediction. You can run simulations to test different models, which can help optimize for latency. Another reason to return to the model selection and development stage from production is if we observe performance drift.
+Unit Tests
+Unit testing is the process of testing small portions of the software, one test at a time, to verify that each and every portion of the software works as expected under controlled conditions. Unit tests return objective evidence, in the form of a boolean value, which is a key aspect that enables workflow automation.
+
+The amount of source code that is actually tested when compared to the total amount of testable code is known as test coverage.
+
+Some of the reasons to include unit tests with your model are:
+
+Regression Testing
+Code Quality - they promote the use of well-written code along with well-conceived designs
+Documentation - unit tests are a form of documentation that can help you and members of your team understand the details of how the software works
+Automates Performance Monitoring Tasks - having a suite of unit tests that are kicked off when training is performed can help monitor for performance drift in an automated way
+Promotes the Use of CI/CD - unit tests help enable a software to be integrated into CI/CD pipelines
+Test Driven Development
+Test Driven Development (TDD) is the process of writing the unit tests first, and then writing just enough code to acheive a passing result in the test suite. In this way, the unit tests serve as an outline, a plan and a completion criteria for the task of writing code and you are more likely to write relevant tests with high coverage.
+
+Performance Monitoring and Business Metrics
+The work of data science does not end when a model has been deployed to production. It is necessary to continue monitoring the model to ensure that it continues to function as originally intended and that it serves the business need for which is was designed. Drift occurs when the new, incoming data does not represent the data that the model was originally trained on. Perhaps there has been a shift in customer demographics or usage patterns, or perhaps the original training data was unbalanced or incomplete. It may be necessary to retrain the model (or select a different model) as more and newer data becomes available.
+
+Another important consideration is how well the model (and deployment environment) handle the load. It can be very difficult to simulate real-world demand levels during the development process, so it’s often unclear how long it will take to process requests until a model is in production. A model may also become a victim of its own success. If a service becomes wildly popular, it may be unable to process all of the requests, resulting in long user wait times, dropped responses and crashes.
+
+Monitoring for both accuracy and performance depends upon logging requests and responses to a file or database that can be examined later. Logging should be done at the most granular level possible and include as much relevant information as possible, including:
+
+runtime - The total amount of time required to process the request.
+
+timestamp - The date and time at which the requst was received and processed.
+
+prediction - The model output.
+
+input_data_summary - Summarizing information about the input data itself.
+
+model_version_number - The model version number is used to better understand the influence of model improvements (or bugs) on performance
+
+request_unique_id - A unique identifier that allows the request to be tracked.
+
+data - the input data
+
+request_type - Relevant attributes about the request (e.g. webapp request, browser request)
+
+probability - Probability associated with a prediction (if applicable)
