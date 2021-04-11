@@ -260,3 +260,84 @@ data - the input data
 request_type - Relevant attributes about the request (e.g. webapp request, browser request)
 
 probability - Probability associated with a prediction (if applicable)
+
+
+
+
+# WEEK 2:
+
+## THE DESIGN THINKING PROCESS
+In the Prototype phase of Design Thinking, Data Scientists generally build simple models that deliver expected results under controlled conditions. While this can be effective for rapidly demonstrating feasibility and moving a project forwards, it is at this point in the process where data may be scarce and time-saving assumptions or approximations can introduce unintentional bias. When moving to the test phase, new and larger data sets are introduced which may evolve or drift over time. Continuing to monitor the performance of the model, and identifying and addressing sources of drift, is an important responsibility, and the data scientist will likely be presenting reports of model performance during playbacks.
+
+
+## Kubernetes Explained: Through the Eyes of Our Working Example
+
+Our Story
+Automation is a key to successful data science teams. Without automation, everyone on the team would get bogged down managing models and services that have already been deployed. Models running in containers need to be managed. They need to be refreshed with new training data. When a new version of a model comes online, the unit test suite needs to be run and, if there is a failure, the management systems should seamlessly fall back to a previous version. The management layer should also have the tools needed to deal with scale.
+
+The data science team at AAVAIL uses Kubernetes for management of these tasks, so this tutorial will help ensure you know the terminology and that you have everything you need to set up a basic container orchestration environment. You will see that Kubernetes is the tool of choice for a number of reasons, but from a data science perspective, having a convenient way to deal with load and scale is perhaps the most important.
+
+
+### THE DESIGN THINKING PROCESS
+Deploying your machine learning models using Kubernetes clusters offers many advantages, one of the most important being flexibility. As your models move into production, they will be tested and used by end users. Depending on the complexity of the model, the number of end users, and the infrastructure supporting it, there will definitely be a need to monitor performance and also to rapidly scale up or down to match demand. You will need to present these considerations to your stakeholders. They will be interested to know what advantages the Kubernetes deployment can give them, particularly with regard to scalabilty and resiliency.
+
+## Introduction to Kubernetes
+Important
+You are not expected to be an expert with Kubernetes after this tutorial. The main goals of this tutorial are that you become familiar with the technology so that you can deploy to a Kubernetes cluster and that you can communicate effectively with colleagues who manage these services.
+
+#### Introduction
+Kubernetes is a container orchestration platform for managing, scheduling and automating the deployment of Docker containers. Orchestration in the sense of containers deals with their automated configuration, coordination, and management. The containers we have developed as part of this course are essentially microservices meant to be deployed as cloud native applications. There are many advantages of the Docker workflow-template approach we presented in this course and, more generally, the cloud native microservices approach. These advantages include but are not limited to:
+
+Reduced time to deployment
+Reusable code
+Ease of model iteration
+Work naturally with container orchestration systems like Kubernetes
+One disadvantage of cloud native applications is that they create the necessity of managing many small pieces. This is where orchestration and Kubernetes come into play.
+
+Let’s say we have an API that runs Latent Dirichlet Allocation on a corpus of user comments generated from the AAVAIL mobile app and website. Following best practices, you have bundled this service inside a container. The model in this case is not enough to provide utility so you have containerized another Flask app that serves a suite of visualization tools so that management, marketing and any other teams at AAVAIL have a tool to explore the data. For example, the container might run, pyLDAvis, the visualization tool we used earlier in this specialization. Additionally the suite of tools might contain a simple dashboard so that a user could browse summary plots, word clouds and tabular summaries. The workflow-templates you have seen so far bundle a basic HTML service that could be expanded to meet all of these needs.
+
+Hint:  The decoupling of a data visualization suite and the underlying model into two separate services promotes code re-usability.
+
+There are two separate containers in this example. If these two containers are often run together, it is worth considering the use of Docker Compose, a tool for running multi-container Docker applications. Docker Compose uses a single YAML file to connect and configure the different containers in your application. Then, with a single command, you can launch all of the services. The convenience of Docker Compose, sometimes just called Compose, is very real and if your application needs more than one container, which is often the case, you should be using Docker Compose.
+
+#### Kubernetes terminology
+kubectl CLI - Kubectl is a command line interface for running commands that communicate with a Kubernetes cluster.
+
+Minikube - A tool that makes it easy to run Kubernetes locally. It runs a single-node cluster inside of a virtual machine. It is an important environment for learning the essentials and it serves as a sandbox to try out ideas.
+
+kubelet - The primary ‘node agent’ on each node. It is the lowest level component in Kubernetes and it is responsible for the processes running on an individual machine.
+
+pod - Pods are the smallest deployable units of computing that can be managed by Kuberntes. Pods are made up of one or more containers (usually Docker), with shared storage/network, and a specification for how to run the containers.
+
+As a reference here is a glossary of Kubernetes terminology.
+
+## Summary/Review
+TUTORIAL: IBM Watson OpenScale
+
+IBM Watson OpenScale is a suite of tools that provide monitoring for drift, fairness and explainability. OpenScale works with models built and deployed on several major cloud systems. The automatic data discovery tools examine the training data for a model, identify the features, labels, predictions and probabilities for supervised machine learning models of binary, multinomial and regression.
+
+In situations where unintentional bias is a concern, OpenScale identifies both the features that are at risk of discrimination and the outcomes that are undesirable. OpenScale then monitors transactions on an on-going basis to ensure that outcomes are not unduly influenced by demographic or other sensitive information values.
+
+OpenScale can also automatically rebalance training data and provide improved models to correct for unintentional bias.
+
+Individual transactions can be analyzed to determine which features are most responsible for the result that was determined and the minimum amount that these values would need to be changed to produce a different result. This explainability tool can be an import guide to business decisions and feedback for customers and users.
+
+CASE STUDY: Performance Monitoring
+Templates can greatly reduce the work and time needed to deploy a model while also improving reliability. The Dockerfile which defines a Docker container is in a format that is easy to read and extend, so it serves as an excellent template. Unit test suites also provide a convenient itemized list of tasks to complete and proof of success.
+
+Flask is a web framework which allows python to work in a web-based environment, receiving data from web requests and return results in a web browser. Flask can be built into a Docker container that exposes ports to allow data to pass in and out of the container.
+
+Once deployed, the Docker container exposes an API endpoint which can receive requests and respond by sending back data. JSON is a data format, similar in structure to a Python dictionary, which is used for passing data to and from an API endpoint. Docker containers may have multiple endpoints for training, predicting and logging, or these functions may be divided among several containers that work together.
+
+TUTORIAL: Managing with Kubernetes
+Kubernetes is a tool for container orchestration. It does not replace Docker, but rather works with Docker to enhance its capabilities and automate tasks. This is especially useful in systems where components are deployed as microservices and spread over several containers that need to be configured, deployed and managed in concert. Kubernetes is especially useful in situations where different components need to scale differently to meet different demands.
+
+Elements of Kubernetes include:
+
+kubectl CLI - a command line interface for communicating with a Kubernetes cluster.
+
+Minikube - a tool that runs a single-node Kubernetes cluster locally as a test environment.
+
+kubelet - the primary agent on each node. It is the lowest level component in Kubernetes and it is responsible for the processes running on an individual machine.
+
+pod - the smallest deployable units of computing that can be managed by Kuberntes. Pods are made up of one or more containers (usually Docker), with shared storage/network, and a specification for how to run the containers.
