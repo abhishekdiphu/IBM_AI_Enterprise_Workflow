@@ -1,0 +1,7 @@
+scikit-learn==0.23
+ibm-watson-machine-learning
+pandas
+numpy
+jupyter
+ibm-ai-openscale
+spacy

@@ -1,0 +1,4 @@
+{
+  "apikey": "18a3e980-23c1-45f0-9dd0-f66a53bd50d5",
+  "url": "https://us-south.ml.cloud.ibm.com"
+}

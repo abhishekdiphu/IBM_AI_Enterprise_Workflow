@@ -1,0 +1,4 @@
+unique_id,timestamp,x_shape,eval_test,model_version,model_version_note,runtime
+10b71b31-dc27-47de-b3b0-6b9030710dbb,1618091861.2275467,"(100, 10)",{'rmse': 0.5},0.1,test model,00:00:01
+a92bda7c-445e-41e6-ba91-c5984cf6689c,1618091861.229547,"(100, 10)",{'rmse': 0.5},0.1,test model,00:00:01
+c05b11ac-adf8-4040-a3ed-1a350e1ccb89,1618091887.354794,"(900, 4)","{'0.0': {'precision': 0.8227848101265823, 'recall': 0.9420289855072463, 'f1-score': 0.8783783783783783, 'support': 207}, '1.0': {'precision': 0.8, 'recall': 0.5333333333333333, 'f1-score': 0.64, 'support': 90}, 'accuracy': 0.8181818181818182, 'macro avg': {'precision': 0.8113924050632912, 'recall': 0.7376811594202899, 'f1-score': 0.7591891891891891, 'support': 297}, 'weighted avg': {'precision': 0.8158803222094362, 'recall': 0.8181818181818182, 'f1-score': 0.806142506142506, 'support': 297}}",0.1,RF on AAVAIL churn,000:00:26
