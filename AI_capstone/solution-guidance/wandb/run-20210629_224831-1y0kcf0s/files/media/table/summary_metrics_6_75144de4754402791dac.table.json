@@ -1,0 +1,1 @@
+{"columns": ["metric_name", "metric_value", "model_name"], "data": [["mae", 238.42, "GridSearchCV"], ["mse", 165536.63, "GridSearchCV"], ["r2_score", 0.99, "GridSearchCV"]]}

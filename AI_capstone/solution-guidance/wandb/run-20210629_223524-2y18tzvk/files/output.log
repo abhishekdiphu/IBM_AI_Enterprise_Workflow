@@ -1,0 +1,28 @@
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+means quared error loss :  15388
+wandb:
+wandb: Plotting RandomForestRegressor.
+... saving model: models\sl-all-0_1.joblib
+wandb: Logged summary metrics.
+wandb: Logged learning curve.
+wandb: Logged outlier candidates.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: Logged residuals.
+means quared error loss :  1632
+... saving model: models\sl-eire-0_1.joblib
+wandb:
+wandb: Plotting RandomForestRegressor.
+wandb: Logged summary metrics.
+wandb: Logged learning curve.
+wandb: Logged outlier candidates.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: Logged residuals.
+means quared error loss :  570
+... saving model: models\sl-france-0_1.joblib
+wandb:
+wandb: Plotting RandomForestRegressor.
+wandb: Logged summary metrics.
+[4mReloaded modules[24m: logger, cslib
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
