@@ -1,0 +1,83 @@
+2021-07-01 13:07:00,906 INFO    MainThread:15296 [wandb_setup.py:_flush():69] setting env: {}
+2021-07-01 13:07:00,906 INFO    MainThread:15296 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-01 13:07:00,906 INFO    MainThread:15296 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-01 13:07:00,907 INFO    MainThread:15296 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210701_130700-1eng6i2d\logs\debug.log
+2021-07-01 13:07:00,907 INFO    MainThread:15296 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210701_130700-1eng6i2d\logs\debug-internal.log
+2021-07-01 13:07:00,912 INFO    MainThread:15296 [wandb_init.py:init():370] calling init triggers
+2021-07-01 13:07:00,913 INFO    MainThread:15296 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-07-01 13:07:00,913 INFO    MainThread:15296 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 1eqwng85
+2021-07-01 13:07:00,918 INFO    MainThread:15296 [wandb_run.py:finish():1294] finishing run abhishekdiphu/IBM-Captstone-Project/1eqwng85
+2021-07-01 13:07:00,937 INFO    MainThread:15296 [jupyter.py:save_history():339] not saving jupyter history
+2021-07-01 13:07:00,937 INFO    MainThread:15296 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-07-01 13:07:00,937 INFO    MainThread:15296 [wandb_init.py:_jupyter_teardown():269] cleaning up jupyter logic
+2021-07-01 13:07:00,938 INFO    MainThread:15296 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 0
+2021-07-01 13:07:00,939 INFO    MainThread:15296 [wandb_run.py:_restore():1566] restore
+2021-07-01 13:07:01,405 INFO    MainThread:15296 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 103348
+  total_bytes: 103348
+}
+
+2021-07-01 13:07:01,864 INFO    MainThread:15296 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 103348
+  total_bytes: 103348
+}
+
+2021-07-01 13:07:01,980 INFO    MainThread:15296 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 103348
+  total_bytes: 107802
+}
+
+2021-07-01 13:07:07,086 INFO    MainThread:15296 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-07-01 13:07:07,206 INFO    MainThread:15296 [wandb_run.py:_restore():1566] restore
+2021-07-01 13:07:07,454 ERROR   MainThread:15296 [wandb_init.py:init():783] error
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1602, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1767, in _on_finish
+    self._poll_exit_response = self._wait_for_finish()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1715, in _wait_for_finish
+    poll_exit_resp = self._backend.interface.communicate_poll_exit()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 783, in communicate_poll_exit
+    result = self._communicate(rec)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 545, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 550, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_init.py", line 757, in init
+    run = wi.init()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_init.py", line 407, in init
+    self._wl._global_run_stack[-1].finish()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1298, in finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1611, in _atexit_cleanup
+    self._backend.cleanup()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\backend\backend.py", line 167, in cleanup
+    self.interface.join()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 836, in join
+    _ = self._communicate(record)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 545, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 550, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

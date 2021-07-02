@@ -1,0 +1,24 @@
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+Exception in thread Thread-6:
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 123, in poll_thread
+    self.poll_one()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 143, in poll_one
+    self._comm_close(msg)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 226, in _comm_close
+    self.close(comm_id)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\spyder_kernels\comms\frontendcomm.py", line 103, in close
+    return super(FrontendComm, self).close(comm_id)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\spyder_kernels\comms\commbase.py", line 173, in close
+    self._comms[comm_id]['comm'].close()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\ipykernel\comm\comm.py", line 118, in close
+    self.kernel.comm_manager.unregister_comm(self)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\ipykernel\comm\manager.py", line 56, in unregister_comm
+    comm = self.comms.pop(comm.comm_id)
+KeyError: '5f391fc6d9eb11eb815e3cf8620a4285'

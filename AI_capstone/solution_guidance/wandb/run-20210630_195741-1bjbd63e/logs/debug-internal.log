@@ -1,0 +1,11 @@
+2021-06-30 20:03:21,233 INFO    MainThread:11068 [internal.py:wandb_internal():91] W&B internal server running at pid: 11068, started at: 2021-06-30 20:03:21.225902
+2021-06-30 20:03:21,236 INFO    WriterThread:11068 [datastore.py:open_for_write():80] open: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195741-1bjbd63e\run-1bjbd63e.wandb
+2021-06-30 20:03:21,236 DEBUG   HandlerThread:11068 [handler.py:handle_request():124] handle_request: check_version
+2021-06-30 20:03:21,240 DEBUG   SenderThread:11068 [sender.py:send():179] send: header
+2021-06-30 20:03:21,242 DEBUG   SenderThread:11068 [sender.py:send_request():193] send_request: check_version
+2021-06-30 23:25:01,450 WARNING MainThread:11068 [internal.py:is_dead():367] Internal process exiting, parent pid 14312 disappeared
+2021-06-30 23:25:01,450 ERROR   MainThread:11068 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-06-30 23:25:02,077 INFO    SenderThread:11068 [sender.py:finish():933] shutting down sender
+2021-06-30 23:25:02,452 INFO    WriterThread:11068 [datastore.py:close():288] close: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195741-1bjbd63e\run-1bjbd63e.wandb
+2021-06-30 23:25:02,452 INFO    HandlerThread:11068 [handler.py:finish():638] shutting down handler
+2021-06-30 23:25:02,452 INFO    MainThread:11068 [internal.py:handle_exit():78] Internal process exited

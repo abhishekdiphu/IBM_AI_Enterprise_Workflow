@@ -1,0 +1,150 @@
+2021-07-01 20:06:30,656 INFO    MainThread:5352 [wandb_setup.py:_flush():69] setting env: {}
+2021-07-01 20:06:30,656 INFO    MainThread:5352 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210701_200630-1q8ukymi\logs\debug.log
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210701_200630-1q8ukymi\logs\debug-internal.log
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000204C2B52588>
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_init.py:init():370] calling init triggers
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 2vkqlth6
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_run.py:finish():1294] finishing run abhishekdiphu/IBM-Project/2vkqlth6
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 0
+2021-07-01 20:06:30,672 INFO    MainThread:5352 [wandb_run.py:_restore():1566] restore
+2021-07-01 20:06:31,350 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 104298
+  total_bytes: 104298
+}
+
+2021-07-01 20:06:31,709 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 104298
+  total_bytes: 104298
+}
+
+2021-07-01 20:06:32,662 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 104298
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:32,992 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 104298
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:33,102 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 108370
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:33,212 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 108370
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:33,321 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 108370
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:33,430 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 108370
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:33,540 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 108370
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:33,649 INFO    MainThread:5352 [wandb_run.py:_wait_for_finish():1716] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 3
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 108370
+  total_bytes: 108370
+}
+
+2021-07-01 20:06:34,788 INFO    MainThread:5352 [wandb_run.py:_show_summary():1871] rendering summary
+2021-07-01 20:06:34,788 INFO    MainThread:5352 [wandb_run.py:_show_history():1909] rendering history
+2021-07-01 20:06:34,788 INFO    MainThread:5352 [wandb_run.py:_show_files():1938] logging synced files
+2021-07-01 20:06:34,804 INFO    MainThread:5352 [wandb_init.py:init():419] starting backend
+2021-07-01 20:06:34,804 INFO    MainThread:5352 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-07-01 20:06:34,804 INFO    MainThread:5352 [backend.py:ensure_launched():135] starting backend process...
+2021-07-01 20:06:34,960 INFO    MainThread:5352 [backend.py:ensure_launched():140] started backend process with pid: 1580
+2021-07-01 20:06:34,960 INFO    MainThread:5352 [wandb_init.py:init():424] backend started and connected
+2021-07-01 20:06:34,976 INFO    MainThread:5352 [wandb_run.py:_label_probe_notebook():845] probe notebook
+2021-07-01 20:06:34,976 INFO    MainThread:5352 [wandb_run.py:_label_probe_notebook():852] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-07-01 20:06:34,976 INFO    MainThread:5352 [wandb_init.py:init():472] updated telemetry
+2021-07-01 20:06:34,976 INFO    MainThread:5352 [wandb_init.py:init():491] communicating current version
+2021-07-01 20:06:37,477 INFO    MainThread:5352 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.10.33 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-07-01 20:06:37,477 INFO    MainThread:5352 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-07-01 20:06:37,918 INFO    MainThread:5352 [wandb_init.py:init():529] starting run threads in backend
+2021-07-01 20:06:38,663 INFO    MainThread:5352 [wandb_run.py:_console_start():1624] atexit reg
+2021-07-01 20:06:38,664 INFO    MainThread:5352 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.WRAP
+2021-07-01 20:06:38,665 INFO    MainThread:5352 [wandb_run.py:_redirect():1535] Wrapping output streams.
+2021-07-01 20:06:38,667 INFO    MainThread:5352 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-07-01 20:06:38,667 INFO    MainThread:5352 [wandb_init.py:init():554] run started, returning control to user process
+2021-07-01 20:06:39,272 INFO    MainThread:5352 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-07-01 20:06:53,817 INFO    MainThread:5352 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-07-01 20:06:58,082 INFO    MainThread:5352 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-07-01 20:07:07,679 INFO    MainThread:5352 [wandb_setup.py:_flush():69] setting env: {}
+2021-07-01 20:07:07,679 INFO    MainThread:5352 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-01 20:07:07,679 INFO    MainThread:5352 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-01 20:07:07,679 INFO    MainThread:5352 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210701_200707-350fpbwo\logs\debug.log
+2021-07-01 20:07:07,679 INFO    MainThread:5352 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210701_200707-350fpbwo\logs\debug-internal.log
+2021-07-01 20:07:08,273 INFO    MainThread:5352 [wandb_init.py:init():370] calling init triggers
+2021-07-01 20:07:08,273 INFO    MainThread:5352 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-07-01 20:07:08,273 INFO    MainThread:5352 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 1q8ukymi
+2021-07-01 20:07:08,273 INFO    MainThread:5352 [wandb_run.py:finish():1294] finishing run abhishekdiphu/IBM-Project/1q8ukymi

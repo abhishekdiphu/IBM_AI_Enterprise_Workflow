@@ -1,0 +1,40 @@
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+means quared error loss :  35655
+... saving model: models\sl-all-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  2386
+... saving model: models\sl-eire-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  843
+... saving model: models\sl-france-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  619
+... saving model: models\sl-germany-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  1232
+... saving model: models\sl-hong_kong-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  229
+... saving model: models\sl-netherlands-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  174
+... saving model: models\sl-norway-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  207
+... saving model: models\sl-portugal-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  2358
+... saving model: models\sl-singapore-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  406
+... saving model: models\sl-spain-0_1.joblib
+[4mReloaded modules[24m: logger, cslib
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

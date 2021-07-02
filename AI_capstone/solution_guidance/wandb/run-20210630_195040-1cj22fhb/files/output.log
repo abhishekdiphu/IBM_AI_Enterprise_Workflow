@@ -1,0 +1,7 @@
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\model_selection\_search.py:925: UserWarning: One or more of the test scores are non-finite: [nan nan nan nan nan nan]
+  category=UserWarning
+[4mReloaded modules[24m: logger, cslib
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

@@ -1,0 +1,503 @@
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+means quared error loss :  46328
+... saving model: models\sl-all-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  3316
+... saving model: models\sl-eire-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  863
+... saving model: models\sl-france-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  924
+... saving model: models\sl-germany-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  1263
+... saving model: models\sl-hong_kong-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  327
+... saving model: models\sl-netherlands-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  146
+... saving model: models\sl-norway-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  483
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+... saving model: models\sl-portugal-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  4134
+... saving model: models\sl-singapore-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  500
+... saving model: models\sl-spain-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  44570
+... saving model: models\sl-united_kingdom-0_1.joblib
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:617: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+LOADING MODELS
+..\cs-train
+... loading ts data from files
+... models loaded:  all,eire,france,germany,hong_kong,netherlands,norway,portugal,singapore,spain,united_kingdom
+..\cs-train
+... loading ts data from files
+2018-01-05

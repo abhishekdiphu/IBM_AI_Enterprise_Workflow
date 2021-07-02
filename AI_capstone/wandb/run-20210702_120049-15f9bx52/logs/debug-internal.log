@@ -1,0 +1,316 @@
+2021-07-02 12:00:59,994 INFO    MainThread:11992 [internal.py:wandb_internal():91] W&B internal server running at pid: 11992, started at: 2021-07-02 12:00:59.978999
+2021-07-02 12:00:59,994 INFO    WriterThread:11992 [datastore.py:open_for_write():80] open: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\run-15f9bx52.wandb
+2021-07-02 12:00:59,994 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: check_version
+2021-07-02 12:01:00,025 DEBUG   SenderThread:11992 [sender.py:send():179] send: header
+2021-07-02 12:01:00,025 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: check_version
+2021-07-02 12:01:00,775 DEBUG   SenderThread:11992 [sender.py:send():179] send: run
+2021-07-02 12:01:01,212 INFO    SenderThread:11992 [dir_watcher.py:__init__():168] watching files in: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files
+2021-07-02 12:01:01,212 INFO    SenderThread:11992 [sender.py:_start_run_threads():707] run started: 15f9bx52 with start time 1625220053
+2021-07-02 12:01:01,212 DEBUG   SenderThread:11992 [sender.py:send():179] send: summary
+2021-07-02 12:01:01,212 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: run_start
+2021-07-02 12:01:01,275 INFO    SenderThread:11992 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 12:01:01,843 DEBUG   HandlerThread:11992 [meta.py:__init__():39] meta init
+2021-07-02 12:01:01,843 DEBUG   HandlerThread:11992 [meta.py:__init__():53] meta init done
+2021-07-02 12:01:01,843 DEBUG   HandlerThread:11992 [meta.py:probe():210] probe
+2021-07-02 12:01:01,921 DEBUG   HandlerThread:11992 [meta.py:_setup_git():200] setup git
+2021-07-02 12:01:02,156 DEBUG   HandlerThread:11992 [meta.py:_setup_git():207] setup git done
+2021-07-02 12:01:02,156 DEBUG   HandlerThread:11992 [meta.py:_save_pip():57] save pip
+2021-07-02 12:01:02,156 DEBUG   HandlerThread:11992 [meta.py:_save_pip():71] save pip done
+2021-07-02 12:01:02,156 DEBUG   HandlerThread:11992 [meta.py:_save_conda():78] save conda
+2021-07-02 12:01:02,171 ERROR   HandlerThread:11992 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\meta.py", line 83, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 1017, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-07-02 12:01:02,209 DEBUG   HandlerThread:11992 [meta.py:_save_conda():86] save conda done
+2021-07-02 12:01:02,209 DEBUG   HandlerThread:11992 [meta.py:probe():252] probe done
+2021-07-02 12:01:02,225 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\wandb-summary.json
+2021-07-02 12:01:02,225 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\wandb-metadata.json
+2021-07-02 12:01:02,225 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\requirements.txt
+2021-07-02 12:01:02,225 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\conda-environment.yaml
+2021-07-02 12:01:02,287 DEBUG   SenderThread:11992 [sender.py:send():179] send: files
+2021-07-02 12:01:02,287 INFO    SenderThread:11992 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-07-02 12:01:02,287 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:01:02,287 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:01:03,099 INFO    Thread-17 :11992 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmpvi9im3i0wandb\1u2ux1oc-wandb-metadata.json
+2021-07-02 12:01:03,271 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\output.log
+2021-07-02 12:01:04,302 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\output.log
+2021-07-02 12:01:10,146 DEBUG   SenderThread:11992 [sender.py:send():179] send: config
+2021-07-02 12:01:10,552 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: log_artifact
+2021-07-02 12:01:10,552 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: log_artifact
+2021-07-02 12:01:11,490 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\media\table\outlier_candidates_0_0f76015da29273131108.table.json
+2021-07-02 12:01:11,490 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\media
+2021-07-02 12:01:11,490 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\media\table
+2021-07-02 12:01:11,928 INFO    Thread-19 :11992 [upload_job.py:push():91] Uploaded file C:\Users\abhishek buragohaibn\.cache\wandb\artifacts\obj\md5\41\a9dd25bd16d068b9ab17e5e5a55885
+2021-07-02 12:01:13,313 DEBUG   SenderThread:11992 [sender.py:send():179] send: files
+2021-07-02 12:01:13,313 INFO    SenderThread:11992 [sender.py:_save_file():829] saving file media\table\outlier_candidates_0_0f76015da29273131108.table.json with policy now
+2021-07-02 12:01:13,517 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\config.yaml
+2021-07-02 12:01:13,657 DEBUG   SenderThread:11992 [sender.py:send():179] send: history
+2021-07-02 12:01:13,657 DEBUG   SenderThread:11992 [sender.py:send():179] send: summary
+2021-07-02 12:01:13,657 INFO    SenderThread:11992 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 12:01:14,032 INFO    Thread-20 :11992 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmpvi9im3i0wandb\11nv2sql-media/table/outlier_candidates_0_0f76015da29273131108.table.json
+2021-07-02 12:01:14,532 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\wandb-summary.json
+2021-07-02 12:01:15,095 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: pause
+2021-07-02 12:01:15,095 INFO    HandlerThread:11992 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-02 12:01:15,220 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:01:16,548 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\output.log
+2021-07-02 12:01:17,612 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:01:17,612 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:01:32,877 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:01:32,877 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:01:48,153 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:01:48,154 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:02:03,419 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:02:03,419 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:02:18,689 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:02:18,689 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:02:33,951 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:02:33,951 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:02:49,246 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:02:49,247 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:03:04,541 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:03:04,542 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:03:19,835 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:03:19,835 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:03:35,096 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:03:35,096 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:03:50,361 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:03:50,361 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:04:05,612 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:04:05,613 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:04:20,874 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:04:20,875 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:04:36,145 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:04:36,145 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:04:51,424 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:04:51,424 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:05:06,698 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:05:06,698 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:05:21,965 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:05:21,966 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:05:37,230 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:05:37,230 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:05:52,508 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:05:52,509 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:06:07,797 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:06:07,797 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:06:23,062 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:06:23,062 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:06:38,332 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:06:38,332 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:06:53,601 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:06:53,601 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:07:08,863 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:07:08,864 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:07:24,124 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:07:24,124 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:07:39,392 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:07:39,392 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:07:54,678 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:07:54,678 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:08:09,965 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:08:09,966 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:08:25,232 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:08:25,232 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:08:40,517 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:08:40,517 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:08:55,786 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:08:55,786 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:09:11,055 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:09:11,056 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:09:26,329 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:09:26,329 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:09:41,584 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:09:41,585 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:09:56,850 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:09:56,977 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:10:12,627 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:10:12,627 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:10:28,350 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:10:28,375 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:10:43,985 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:10:44,048 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:10:59,868 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:10:59,952 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:11:15,555 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:11:15,673 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:11:31,439 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:11:31,554 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:11:47,049 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:11:47,060 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:12:02,624 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:12:02,625 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:12:17,892 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:12:17,893 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:12:33,160 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:12:33,160 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:12:48,442 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:12:48,442 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:13:03,709 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:13:03,709 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:13:18,981 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:13:18,982 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:13:34,251 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:13:34,251 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:13:49,525 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:13:49,525 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:14:04,803 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:14:04,804 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:14:20,065 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:14:20,065 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:14:35,334 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:14:35,334 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:14:50,628 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:14:50,629 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:15:05,898 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:15:05,898 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:15:21,157 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:15:21,158 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:15:36,428 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:15:36,429 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:15:41,574 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: resume
+2021-07-02 12:15:41,574 INFO    HandlerThread:11992 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-02 12:15:43,289 INFO    Thread-12 :11992 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\output.log
+2021-07-02 12:15:51,685 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:15:51,686 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:16:06,965 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:16:06,965 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:16:12,984 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:16:22,230 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:16:22,230 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:16:37,505 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:16:37,505 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:16:47,441 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:16:52,772 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:16:52,772 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:17:08,051 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:17:08,051 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:17:21,062 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:17:23,328 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:17:23,329 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:17:38,617 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:17:38,617 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:17:53,902 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:17:53,902 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:17:55,674 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:18:09,181 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:18:09,181 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:18:24,438 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:18:24,438 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:18:31,853 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:18:39,695 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:18:39,695 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:18:54,978 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:18:54,978 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:19:07,954 DEBUG   SenderThread:11992 [sender.py:send():179] send: stats
+2021-07-02 12:19:10,253 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:19:10,253 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:19:25,549 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:19:25,549 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:19:40,830 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:19:40,830 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:19:56,087 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:19:56,087 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:20:11,369 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:20:11,370 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:20:26,639 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:20:26,639 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:20:41,923 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:20:41,924 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:20:57,204 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:20:57,205 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:21:12,470 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:21:12,470 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:21:27,734 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:21:27,734 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:21:43,000 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:21:43,000 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:21:58,268 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:21:58,269 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:22:13,551 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:22:13,551 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:22:28,823 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:22:28,823 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:22:44,101 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:22:44,101 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:22:59,377 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:22:59,378 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:23:14,696 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:23:14,696 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:23:29,962 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:23:29,963 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:23:45,246 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:23:45,246 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:24:00,511 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:24:00,511 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:24:15,780 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:24:15,780 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:24:31,057 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:24:31,057 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:24:46,338 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:24:46,338 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:25:01,619 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:25:01,619 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:25:16,898 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:25:16,898 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:25:34,104 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:25:34,105 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:25:49,373 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:25:49,374 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:26:04,643 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:26:04,643 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:26:19,915 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:26:19,915 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:26:35,199 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:26:35,199 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:26:50,468 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:26:50,468 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:27:05,736 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:27:05,736 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:27:21,013 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:27:21,013 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:27:36,302 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:27:36,303 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:27:51,574 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:27:51,575 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:28:06,867 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:28:06,868 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:28:22,149 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:28:22,149 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:28:37,417 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:28:37,418 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:28:52,682 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:28:52,683 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:29:07,954 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:29:07,954 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:29:23,231 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:29:23,232 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:29:38,494 DEBUG   HandlerThread:11992 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 12:29:38,495 DEBUG   SenderThread:11992 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 12:29:43,591 WARNING MainThread:11992 [internal.py:is_dead():367] Internal process exiting, parent pid 3628 disappeared
+2021-07-02 12:29:43,591 ERROR   MainThread:11992 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-07-02 12:29:43,592 INFO    WriterThread:11992 [datastore.py:close():288] close: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\run-15f9bx52.wandb
+2021-07-02 12:29:43,762 INFO    SenderThread:11992 [sender.py:finish():933] shutting down sender
+2021-07-02 12:29:43,762 INFO    SenderThread:11992 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-02 12:29:43,909 INFO    SenderThread:11992 [dir_watcher.py:finish():312] scan: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files
+2021-07-02 12:29:43,910 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\conda-environment.yaml conda-environment.yaml
+2021-07-02 12:29:43,911 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\config.yaml config.yaml
+2021-07-02 12:29:43,912 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\output.log output.log
+2021-07-02 12:29:43,914 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\requirements.txt requirements.txt
+2021-07-02 12:29:43,927 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\wandb-metadata.json wandb-metadata.json
+2021-07-02 12:29:43,931 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\wandb-summary.json wandb-summary.json
+2021-07-02 12:29:43,945 INFO    SenderThread:11992 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\media\table\outlier_candidates_0_0f76015da29273131108.table.json media\table\outlier_candidates_0_0f76015da29273131108.table.json
+2021-07-02 12:29:43,945 INFO    SenderThread:11992 [file_pusher.py:finish():176] shutting down file pusher
+2021-07-02 12:29:43,945 INFO    SenderThread:11992 [file_pusher.py:join():181] waiting for file pusher
+2021-07-02 12:29:44,506 INFO    HandlerThread:11992 [handler.py:finish():638] shutting down handler
+2021-07-02 12:29:44,727 INFO    Thread-22 :11992 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\config.yaml
+2021-07-02 12:29:44,727 INFO    Thread-24 :11992 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\requirements.txt
+2021-07-02 12:29:44,733 INFO    Thread-25 :11992 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\wandb-summary.json
+2021-07-02 12:29:44,744 INFO    Thread-23 :11992 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_120049-15f9bx52\files\output.log
+2021-07-02 12:29:45,106 INFO    MainThread:11992 [internal.py:handle_exit():78] Internal process exited

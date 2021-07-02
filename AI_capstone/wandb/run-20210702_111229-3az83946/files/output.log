@@ -1,0 +1,33 @@
+
+... saving test version of model: models\test-united_kingdom-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+.EE
+======================================================================
+ERROR: test_02_load (model_test.ModelTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\unittests\model_test.py", line 36, in test_02_load
+    all_data, all_models = model_load()
+  File "C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution_guidance\model.py", line 224, in model_load
+    raise Exception("Models with prefix '{}' cannot be found did you train?".format(prefix))
+Exception: Models with prefix 'sl' cannot be found did you train?
+======================================================================
+ERROR: test_03_predict (model_test.ModelTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\unittests\model_test.py", line 49, in test_03_predict
+    result = model_predict('netherlands','2018','08','01',test=True)
+  File "C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution_guidance\model.py", line 262, in model_predict
+    all_data,all_models = model_load(training=False)
+  File "C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution_guidance\model.py", line 224, in model_load
+    raise Exception("Models with prefix '{}' cannot be found did you train?".format(prefix))
+Exception: Models with prefix 'sl' cannot be found did you train?
+----------------------------------------------------------------------
+Ran 3 tests in 201.349s
+FAILED (errors=2)
+[4mReloaded modules[24m: unittests, model_test, solution_guidance, solution_guidance.model, solution_guidance.logger, solution_guidance.cslib
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+means quared error loss :  17754
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

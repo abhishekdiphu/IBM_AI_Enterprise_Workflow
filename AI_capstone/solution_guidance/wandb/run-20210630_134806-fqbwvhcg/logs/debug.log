@@ -1,0 +1,81 @@
+2021-06-30 13:48:06,606 INFO    MainThread:18540 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-30 13:48:06,607 INFO    MainThread:18540 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 13:48:06,607 INFO    MainThread:18540 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 13:48:06,607 INFO    MainThread:18540 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_134806-fqbwvhcg\logs\debug.log
+2021-06-30 13:48:06,607 INFO    MainThread:18540 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_134806-fqbwvhcg\logs\debug-internal.log
+2021-06-30 13:48:06,621 INFO    MainThread:18540 [wandb_init.py:init():370] calling init triggers
+2021-06-30 13:48:06,622 INFO    MainThread:18540 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-06-30 13:48:06,622 INFO    MainThread:18540 [wandb_init.py:init():392] re-initializing run, found existing run on stack: jki8h88h
+2021-06-30 13:48:06,623 INFO    MainThread:18540 [wandb_run.py:finish():1294] finishing run abhishekdiphu/visualize-sklearn/jki8h88h
+2021-06-30 13:48:06,625 INFO    MainThread:18540 [jupyter.py:save_history():339] not saving jupyter history
+2021-06-30 13:48:06,625 INFO    MainThread:18540 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-06-30 13:48:06,625 INFO    MainThread:18540 [wandb_init.py:_jupyter_teardown():269] cleaning up jupyter logic
+2021-06-30 13:48:06,625 INFO    MainThread:18540 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 0
+2021-06-30 13:48:06,921 INFO    MainThread:18540 [wandb_run.py:_restore():1566] restore
+2021-06-30 13:49:34,288 ERROR   MainThread:18540 [wandb_run.py:_atexit_cleanup():1612] Problem finishing run
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1602, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 1738, in _on_finish
+    self.history._flush()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_history.py", line 59, in _flush
+    self._callback(row=self._data, step=self._step)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 933, in _history_callback
+    row, step, publish_step=not_using_tensorboard
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 222, in publish_history
+    data = data_types.history_dict_to_json(run, data, step=step)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\data_types.py", line 2210, in history_dict_to_json
+    payload[key] = val_to_json(run, key, val, namespace=step)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\data_types.py", line 2293, in val_to_json
+    return val.to_json(run)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\data_types.py", line 510, in to_json
+    json_dict = super(Table, self).to_json(run_or_artifact)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\data_types.py", line 490, in to_json
+    artifact_entry = self._get_artifact_reference_entry()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\data_types.py", line 251, in _get_artifact_reference_entry
+    type(self).with_suffix(self._artifact_target.name)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_artifacts.py", line 530, in get_path
+    return self._logged_artifact.get_path(name)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_run.py", line 2657, in get_path
+    return self._assert_instance().get_path(name)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\apis\public.py", line 2989, in get_path
+    manifest = self._load_manifest()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\apis\public.py", line 3282, in _load_manifest
+    "name": self._artifact_name,
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\lib\retry.py", line 159, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\apis\public.py", line 188, in execute
+    return self._client.execute(*args, **kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 54, in execute
+    raise Exception(str(result.errors[0]))
+Exception: {'message': 'Variable "entityName" has invalid value null.\nExpected type "String!", found null.', 'locations': [{'line': 1, 'column': 24}]}
+2021-06-30 13:49:34,355 INFO    MainThread:18540 [wandb_init.py:init():419] starting backend
+2021-06-30 13:49:34,357 INFO    MainThread:18540 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-06-30 13:49:34,363 INFO    MainThread:18540 [backend.py:ensure_launched():135] starting backend process...
+2021-06-30 13:49:34,679 INFO    MainThread:18540 [backend.py:ensure_launched():140] started backend process with pid: 15200
+2021-06-30 13:49:34,680 INFO    MainThread:18540 [wandb_init.py:init():424] backend started and connected
+2021-06-30 13:49:34,702 INFO    MainThread:18540 [wandb_run.py:_label_probe_notebook():845] probe notebook
+2021-06-30 13:49:34,702 INFO    MainThread:18540 [wandb_run.py:_label_probe_notebook():852] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-06-30 13:49:34,702 INFO    MainThread:18540 [wandb_init.py:init():472] updated telemetry
+2021-06-30 13:49:34,704 INFO    MainThread:18540 [wandb_init.py:init():491] communicating current version
+2021-06-30 13:49:39,705 INFO    MainThread:18540 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-06-30 13:49:42,628 INFO    MainThread:18540 [wandb_init.py:init():529] starting run threads in backend
+2021-06-30 13:49:43,412 INFO    MainThread:18540 [wandb_run.py:_console_start():1624] atexit reg
+2021-06-30 13:49:43,414 INFO    MainThread:18540 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.WRAP
+2021-06-30 13:49:43,414 INFO    MainThread:18540 [wandb_run.py:_redirect():1535] Wrapping output streams.
+2021-06-30 13:49:43,417 INFO    MainThread:18540 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-06-30 13:49:43,417 INFO    MainThread:18540 [wandb_init.py:init():554] run started, returning control to user process
+2021-06-30 13:50:19,703 INFO    MainThread:18540 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-30 13:50:19,703 INFO    MainThread:18540 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 13:50:19,703 INFO    MainThread:18540 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 13:50:19,704 INFO    MainThread:18540 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_135019-2gb8i4j0\logs\debug.log
+2021-06-30 13:50:19,704 INFO    MainThread:18540 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_135019-2gb8i4j0\logs\debug-internal.log
+2021-06-30 13:50:19,742 INFO    MainThread:18540 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002B433B9BBE0>
+2021-06-30 13:50:19,743 INFO    MainThread:18540 [wandb_init.py:init():370] calling init triggers
+2021-06-30 13:50:19,743 INFO    MainThread:18540 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-06-30 13:50:19,743 INFO    MainThread:18540 [wandb_init.py:init():392] re-initializing run, found existing run on stack: fqbwvhcg
+2021-06-30 13:50:19,745 INFO    MainThread:18540 [wandb_run.py:finish():1294] finishing run abhishekdiphu/visualize-sklearn/fqbwvhcg

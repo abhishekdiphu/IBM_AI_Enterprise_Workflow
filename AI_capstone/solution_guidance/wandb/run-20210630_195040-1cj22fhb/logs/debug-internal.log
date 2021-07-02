@@ -1,0 +1,520 @@
+2021-06-30 19:50:54,638 INFO    MainThread:5704 [internal.py:wandb_internal():91] W&B internal server running at pid: 5704, started at: 2021-06-30 19:50:54.630595
+2021-06-30 19:50:54,641 INFO    WriterThread:5704 [datastore.py:open_for_write():80] open: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\run-1cj22fhb.wandb
+2021-06-30 19:50:54,642 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: check_version
+2021-06-30 19:50:54,647 DEBUG   SenderThread:5704 [sender.py:send():179] send: header
+2021-06-30 19:50:54,648 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: check_version
+2021-06-30 19:50:55,404 DEBUG   SenderThread:5704 [sender.py:send():179] send: run
+2021-06-30 19:50:55,886 INFO    SenderThread:5704 [dir_watcher.py:__init__():168] watching files in: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files
+2021-06-30 19:50:55,886 INFO    SenderThread:5704 [sender.py:_start_run_threads():707] run started: 1cj22fhb with start time 1625075450
+2021-06-30 19:50:55,886 DEBUG   SenderThread:5704 [sender.py:send():179] send: summary
+2021-06-30 19:50:55,887 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: run_start
+2021-06-30 19:50:55,925 INFO    SenderThread:5704 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-30 19:50:56,539 DEBUG   HandlerThread:5704 [meta.py:__init__():39] meta init
+2021-06-30 19:50:56,539 DEBUG   HandlerThread:5704 [meta.py:__init__():53] meta init done
+2021-06-30 19:50:56,539 DEBUG   HandlerThread:5704 [meta.py:probe():210] probe
+2021-06-30 19:50:56,549 DEBUG   HandlerThread:5704 [meta.py:_setup_git():200] setup git
+2021-06-30 19:50:56,745 DEBUG   HandlerThread:5704 [meta.py:_setup_git():207] setup git done
+2021-06-30 19:50:56,746 DEBUG   HandlerThread:5704 [meta.py:_save_pip():57] save pip
+2021-06-30 19:50:56,747 DEBUG   HandlerThread:5704 [meta.py:_save_pip():71] save pip done
+2021-06-30 19:50:56,748 DEBUG   HandlerThread:5704 [meta.py:_save_conda():78] save conda
+2021-06-30 19:50:56,771 ERROR   HandlerThread:5704 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\meta.py", line 83, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 1017, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-06-30 19:50:56,799 DEBUG   HandlerThread:5704 [meta.py:_save_conda():86] save conda done
+2021-06-30 19:50:56,799 DEBUG   HandlerThread:5704 [meta.py:probe():252] probe done
+2021-06-30 19:50:56,832 DEBUG   SenderThread:5704 [sender.py:send():179] send: files
+2021-06-30 19:50:56,832 INFO    SenderThread:5704 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-06-30 19:50:56,841 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:50:56,841 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:50:56,891 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\conda-environment.yaml
+2021-06-30 19:50:56,892 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\wandb-summary.json
+2021-06-30 19:50:56,892 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\requirements.txt
+2021-06-30 19:50:56,893 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\output.log
+2021-06-30 19:50:56,893 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\wandb-metadata.json
+2021-06-30 19:50:57,511 INFO    Thread-17 :5704 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmpgquwpntawandb\2hcizu3y-wandb-metadata.json
+2021-06-30 19:50:58,891 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\output.log
+2021-06-30 19:51:12,103 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:51:12,103 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:51:18,758 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: pause
+2021-06-30 19:51:18,759 INFO    HandlerThread:5704 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-30 19:51:18,853 DEBUG   SenderThread:5704 [sender.py:send():179] send: stats
+2021-06-30 19:51:20,928 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\output.log
+2021-06-30 19:51:27,387 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:51:27,387 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:51:42,637 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:51:42,638 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:51:57,921 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:51:57,922 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:52:13,182 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:52:13,182 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:52:28,451 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:52:28,452 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:52:43,717 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:52:43,717 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:52:58,997 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:52:58,997 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:53:14,256 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:53:14,256 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:53:29,522 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:53:29,522 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:53:44,810 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:53:44,810 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:54:00,062 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:54:00,062 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:54:15,328 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:54:15,328 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:54:30,580 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:54:30,580 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:54:45,849 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:54:45,849 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:55:01,125 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:55:01,125 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:55:16,412 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:55:16,412 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:55:31,689 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:55:31,689 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:55:46,970 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:55:46,970 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:56:02,244 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:56:02,245 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:56:18,546 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:56:18,546 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:56:33,811 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:56:33,811 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:56:49,087 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:56:49,088 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:57:04,367 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:57:04,367 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:57:19,633 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:57:19,634 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:57:34,910 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-30 19:57:34,911 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: stop_status
+2021-06-30 19:57:41,663 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: resume
+2021-06-30 19:57:41,663 INFO    HandlerThread:5704 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-30 19:57:42,320 DEBUG   SenderThread:5704 [sender.py:send():179] send: telemetry
+2021-06-30 19:57:42,320 DEBUG   SenderThread:5704 [sender.py:send():179] send: exit
+2021-06-30 19:57:42,320 INFO    SenderThread:5704 [sender.py:send_exit():287] handling exit code: 0
+2021-06-30 19:57:42,320 INFO    SenderThread:5704 [sender.py:send_exit():295] send defer
+2021-06-30 19:57:42,320 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:57:42,320 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: defer
+2021-06-30 19:57:42,320 INFO    HandlerThread:5704 [handler.py:handle_request_defer():141] handle defer: 0
+2021-06-30 19:57:42,320 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: poll_exit
+2021-06-30 19:57:42,320 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: defer
+2021-06-30 19:57:42,320 INFO    SenderThread:5704 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-06-30 19:57:42,320 INFO    SenderThread:5704 [sender.py:send_request_defer():342] send defer: 1
+2021-06-30 19:57:42,320 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: defer
+2021-06-30 19:57:42,320 INFO    HandlerThread:5704 [handler.py:handle_request_defer():141] handle defer: 1
+2021-06-30 19:57:42,382 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: defer
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():342] send defer: 2
+2021-06-30 19:57:42,382 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: defer
+2021-06-30 19:57:42,382 INFO    HandlerThread:5704 [handler.py:handle_request_defer():141] handle defer: 2
+2021-06-30 19:57:42,382 DEBUG   SenderThread:5704 [sender.py:send():179] send: stats
+2021-06-30 19:57:42,382 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: defer
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():342] send defer: 3
+2021-06-30 19:57:42,382 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: defer
+2021-06-30 19:57:42,382 INFO    HandlerThread:5704 [handler.py:handle_request_defer():141] handle defer: 3
+2021-06-30 19:57:42,382 DEBUG   SenderThread:5704 [sender.py:send():179] send: summary
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-30 19:57:42,382 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: defer
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():342] send defer: 4
+2021-06-30 19:57:42,382 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: defer
+2021-06-30 19:57:42,382 INFO    HandlerThread:5704 [handler.py:handle_request_defer():141] handle defer: 4
+2021-06-30 19:57:42,382 DEBUG   SenderThread:5704 [sender.py:send_request():193] send_request: defer
+2021-06-30 19:57:42,382 INFO    SenderThread:5704 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-06-30 19:57:42,429 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:57:42,460 ERROR   FileStreamThread:5704 [file_stream.py:_thread_except_body():293] generic exception in filestream thread
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\file_stream.py", line 289, in _thread_except_body
+    self._thread_body()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\file_stream.py", line 267, in _thread_body
+    self._send(ready_chunks)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\file_stream.py", line 334, in _send
+    retry_callback=self._api.retry_callback,
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\file_stream.py", line 302, in _handle_response
+    raise response
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\file_stream.py", line 392, in request_with_retry
+    response.raise_for_status()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/files/abhishekdiphu/visualize-sklearn/1cj22fhb/file_stream
+2021-06-30 19:57:42,679 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:57:42,679 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:57:43,280 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\output.log
+2021-06-30 19:57:43,280 INFO    Thread-12 :5704 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\files\wandb-summary.json
+2021-06-30 19:57:44,173 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:57:44,173 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:57:46,850 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:57:46,850 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:57:46,850 ERROR   SenderThread:5704 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\internal_api.py", line 133, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\internal_api.py", line 127, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-06-30 19:57:47,566 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:57:51,704 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:57:51,704 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:57:52,677 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:57:57,792 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:01,247 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:58:01,247 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:58:02,893 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:07,993 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:13,094 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:18,195 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:20,169 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:58:20,169 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:58:23,298 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:28,399 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:33,499 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:38,601 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:43,702 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:48,801 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:53,904 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:58:58,318 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 19:58:58,318 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 19:58:59,004 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:04,106 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:09,208 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:14,308 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:19,409 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:24,510 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:29,611 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:34,712 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:39,813 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:44,913 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:50,014 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 19:59:55,115 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:00,217 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:03,145 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 20:00:03,145 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 20:00:05,318 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:10,417 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:15,518 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:20,619 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:25,720 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:30,822 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:35,922 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:41,023 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:46,124 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:51,226 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:00:56,327 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:01,428 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:06,528 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:11,629 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:16,730 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:21,832 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:26,934 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:32,034 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:37,135 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:42,236 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:47,336 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:52,437 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:01:57,537 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:02,638 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:07,740 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:12,840 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:17,942 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:23,043 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:28,144 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:31,981 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 20:02:31,982 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 20:02:33,271 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:38,371 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:43,472 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:48,573 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:53,673 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:02:58,775 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:03:03,875 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:03:08,976 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:03:14,077 DEBUG   HandlerThread:5704 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-30 20:07:15,774 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 20:07:15,774 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 20:13:19,915 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 20:13:19,915 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 20:57:12,746 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 20:57:12,746 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:03:00,072 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:03:00,072 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:08:58,331 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:08:58,331 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:14:31,730 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:14:31,731 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:20:07,918 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:20:07,919 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:25:40,012 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:25:40,012 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:30:54,986 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:30:54,987 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:37:00,697 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:37:00,697 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:42:32,263 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:42:32,263 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:48:08,186 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:48:08,187 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:53:24,797 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:53:24,797 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 21:59:08,492 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 21:59:08,492 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:04:38,080 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:04:38,080 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:10:33,029 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:10:33,029 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:16:26,196 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:16:26,197 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:22:15,803 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:22:15,804 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:28:21,758 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:28:21,758 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:33:31,361 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:33:31,361 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:39:40,002 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:39:40,002 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:45:00,730 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:45:00,730 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:50:46,153 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:50:46,154 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 22:56:31,755 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 22:56:31,755 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:02:25,880 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:02:25,880 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:08:24,954 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:08:24,954 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:13:57,826 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:13:57,826 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:20:01,423 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:20:01,424 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:25:01,435 WARNING MainThread:5704 [internal.py:is_dead():367] Internal process exiting, parent pid 14312 disappeared
+2021-06-30 23:25:01,435 ERROR   MainThread:5704 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-06-30 23:25:02,140 INFO    HandlerThread:5704 [handler.py:finish():638] shutting down handler
+2021-06-30 23:25:02,140 INFO    WriterThread:5704 [datastore.py:close():288] close: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195040-1cj22fhb\run-1cj22fhb.wandb
+2021-06-30 23:25:16,891 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:25:16,891 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:30:58,595 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:30:58,595 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:36:53,522 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:36:53,522 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:42:31,590 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:42:31,590 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-06-30 23:47:38,476 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-06-30 23:47:38,477 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 01:47:00,979 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 01:47:00,979 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 01:52:31,837 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 01:52:31,837 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 01:58:06,233 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 01:58:06,233 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:03:07,008 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:03:07,009 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:08:48,122 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:08:48,122 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:13:57,053 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:13:57,053 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:20:03,528 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:20:03,529 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:26:00,971 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:26:00,972 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:31:56,571 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:31:56,572 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 02:38:03,815 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 02:38:03,816 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 03:48:02,529 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 03:48:02,530 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 03:53:23,915 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 03:53:23,916 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 03:58:54,620 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 03:58:54,621 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 04:04:57,250 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 04:04:57,250 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 04:10:20,333 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 04:10:20,333 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 04:15:21,585 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 04:15:21,585 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 04:20:34,527 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 04:20:34,527 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 09:28:23,693 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 09:28:23,693 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 09:34:23,085 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 09:34:23,086 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 09:39:34,068 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 09:39:34,068 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 09:45:24,682 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 09:45:24,682 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 09:50:42,537 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 09:50:42,537 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 09:56:12,149 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 09:56:12,149 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:02:12,737 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:02:12,738 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:07:57,664 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:07:57,664 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:13:15,813 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:13:15,813 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:19:00,409 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:19:00,409 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:24:43,090 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:24:43,090 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:30:32,861 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:30:32,862 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:36:02,201 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:36:02,201 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:41:38,733 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:41:38,733 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:47:04,015 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:47:04,015 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:52:18,244 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:52:18,244 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 10:58:29,148 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 10:58:29,148 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:04:26,694 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:04:26,694 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:09:33,612 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:09:33,612 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:15:31,655 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:15:31,655 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:21:12,392 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:21:12,392 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:26:43,192 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:26:43,192 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:32:42,416 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:32:42,416 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:38:17,774 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:38:17,774 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:44:11,039 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:44:11,132 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:49:28,662 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:49:28,662 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 11:55:29,623 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 11:55:29,623 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:00:35,857 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:00:35,950 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:05:53,823 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:05:53,885 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:11:24,065 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:11:24,065 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:17:28,237 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:17:28,237 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:22:29,682 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:22:29,682 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:27:34,607 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:27:34,607 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:32:46,738 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:32:46,738 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:38:42,118 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:38:42,119 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:44:04,194 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:44:04,195 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:49:15,127 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:49:15,127 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 12:54:21,999 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 12:54:22,042 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:00:28,809 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:00:28,810 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:06:19,406 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:06:19,406 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:12:05,899 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:12:05,900 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:17:34,279 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:17:34,279 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:23:01,983 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:23:01,984 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:28:51,396 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:28:51,397 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:35:02,320 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:35:02,322 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:40:29,502 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:40:29,502 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:45:49,778 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:45:49,779 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 13:51:06,528 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 13:51:06,529 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:19:30,612 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:19:30,612 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:25:41,972 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:25:41,972 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:31:05,337 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:31:05,337 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:36:49,602 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:36:49,602 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:42:06,152 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:42:06,152 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:47:43,005 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:47:43,005 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:52:49,790 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:52:49,790 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 14:58:27,760 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 14:58:27,760 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:03:58,409 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:03:58,409 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:09:41,844 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:09:41,845 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:15:36,211 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:15:36,211 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:20:44,092 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:20:44,092 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:25:58,469 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:25:58,470 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:31:11,626 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:31:11,626 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:36:59,364 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:36:59,364 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:42:32,894 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:42:32,894 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:47:40,368 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:47:40,368 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:53:03,215 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:53:03,403 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 15:58:11,914 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 15:58:11,914 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:03:53,030 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:03:53,030 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:09:03,566 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:09:03,567 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:15:10,793 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:15:10,793 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:21:01,033 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:21:01,033 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:26:10,110 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:26:10,110 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:32:04,556 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:32:04,557 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:37:32,238 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:37:32,238 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:43:27,995 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:43:27,996 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:49:32,150 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:49:32,150 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:54:34,490 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:54:34,490 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 16:59:37,213 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 16:59:37,349 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 17:05:39,548 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 17:05:39,549 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 17:11:07,841 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 17:11:07,841 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-07-01 17:16:43,526 ERROR   SenderThread:5704 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-07-01 17:16:43,526 ERROR   SenderThread:5704 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '364422-1cj22fhb' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}

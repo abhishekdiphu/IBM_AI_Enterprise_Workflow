@@ -1,0 +1,18 @@
+
+... saving model: models\sl-united_kingdom-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+LOADING MODELS
+..\cs-train
+... loading ts data from files
+... models loaded:  all,eire,france,germany,hong_kong,netherlands,norway,portugal,singapore,spain,united_kingdom
+..\cs-train
+... loading ts data from files
+2018-01-05
+{'y_pred': array([183972.1828]), 'y_proba': None}
+[4mReloaded modules[24m: logger, cslib
+TRAINING MODELS
+..\cs-train
+... loading ts data from files
+means quared error loss :  16519
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

@@ -1,0 +1,302 @@
+2021-06-30 19:57:41,849 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-30 19:57:41,849 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 19:57:41,849 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 19:57:41,849 INFO    MainThread:14312 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195741-1bjbd63e\logs\debug.log
+2021-06-30 19:57:41,849 INFO    MainThread:14312 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_195741-1bjbd63e\logs\debug-internal.log
+2021-06-30 19:57:41,879 INFO    MainThread:14312 [wandb_init.py:init():370] calling init triggers
+2021-06-30 19:57:41,879 INFO    MainThread:14312 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-06-30 19:57:41,880 INFO    MainThread:14312 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 1cj22fhb
+2021-06-30 19:57:41,883 INFO    MainThread:14312 [wandb_run.py:finish():1294] finishing run abhishekdiphu/visualize-sklearn/1cj22fhb
+2021-06-30 19:57:41,885 INFO    MainThread:14312 [jupyter.py:save_history():339] not saving jupyter history
+2021-06-30 19:57:41,885 INFO    MainThread:14312 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-06-30 19:57:41,885 INFO    MainThread:14312 [wandb_init.py:_jupyter_teardown():269] cleaning up jupyter logic
+2021-06-30 19:57:41,885 INFO    MainThread:14312 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 0
+2021-06-30 19:57:41,886 INFO    MainThread:14312 [wandb_run.py:_restore():1566] restore
+2021-06-30 19:57:42,320 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 994
+  total_bytes: 994
+}
+
+2021-06-30 19:57:47,456 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:57:52,567 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:57:57,683 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:02,792 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:07,893 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:12,994 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:18,095 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:23,197 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:28,298 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:33,399 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:38,500 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:43,601 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:48,701 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:53,802 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:58:58,904 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:04,005 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:09,106 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:14,207 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:19,308 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:24,409 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:29,510 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:34,611 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:39,712 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:44,813 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:49,913 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 19:59:55,015 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:00,116 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:05,217 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:10,317 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:15,418 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:20,518 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:25,619 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:30,721 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:35,822 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:40,922 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:46,024 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:51,125 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:00:56,226 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:01,327 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:06,428 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:11,528 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:16,630 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:21,730 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:26,832 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:31,933 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:37,034 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:42,135 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:47,236 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:52,337 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:01:57,437 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:02,538 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:07,639 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:12,740 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:17,841 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:22,942 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:28,043 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:33,144 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:38,270 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:43,372 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:48,473 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:53,573 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:02:58,674 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:03:03,775 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:03:08,876 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:03:13,976 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: None
+2021-06-30 20:03:19,080 INFO    MainThread:14312 [wandb_init.py:init():419] starting backend
+2021-06-30 20:03:19,081 INFO    MainThread:14312 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-06-30 20:03:19,086 INFO    MainThread:14312 [backend.py:ensure_launched():135] starting backend process...
+2021-06-30 20:03:19,416 INFO    MainThread:14312 [backend.py:ensure_launched():140] started backend process with pid: 11068
+2021-06-30 20:03:19,417 INFO    MainThread:14312 [wandb_init.py:init():424] backend started and connected
+2021-06-30 20:03:19,440 INFO    MainThread:14312 [wandb_run.py:_label_probe_notebook():845] probe notebook
+2021-06-30 20:03:19,440 INFO    MainThread:14312 [wandb_run.py:_label_probe_notebook():852] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-06-30 20:03:19,440 INFO    MainThread:14312 [wandb_init.py:init():472] updated telemetry
+2021-06-30 20:03:19,442 INFO    MainThread:14312 [wandb_init.py:init():491] communicating current version
+2021-06-30 20:03:21,967 WARNING MainThread:14312 [wandb_init.py:init():777] interrupted
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_init.py", line 757, in init
+    run = wi.init()
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\wandb_init.py", line 493, in init
+    current_version=wandb.__version__
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 797, in communicate_check_version
+    result = self._communicate(rec)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 545, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\interface\interface.py", line 82, in get
+    is_set = self._object_ready.wait(timeout)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\threading.py", line 551, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\threading.py", line 299, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2021-06-30 20:03:25,178 INFO    MainThread:14312 [wandb_settings.py:_apply_source_login():716] setting login settings: {}
+2021-06-30 20:03:25,191 INFO    MainThread:14312 [wandb_settings.py:_apply_source_login():716] setting login settings: {}
+2021-06-30 20:03:25,207 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-30 20:03:25,208 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 20:03:25,208 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 20:03:25,208 INFO    MainThread:14312 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_200325-39au2ip2\logs\debug.log
+2021-06-30 20:03:25,208 INFO    MainThread:14312 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_200325-39au2ip2\logs\debug-internal.log
+2021-06-30 20:03:25,224 INFO    MainThread:14312 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001DB1EC34240>
+2021-06-30 20:03:25,224 INFO    MainThread:14312 [wandb_init.py:init():370] calling init triggers
+2021-06-30 20:03:25,224 INFO    MainThread:14312 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-06-30 20:03:25,224 INFO    MainThread:14312 [wandb_init.py:init():419] starting backend
+2021-06-30 20:03:25,225 INFO    MainThread:14312 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-06-30 20:03:25,230 INFO    MainThread:14312 [backend.py:ensure_launched():135] starting backend process...
+2021-06-30 20:03:25,379 INFO    MainThread:14312 [backend.py:ensure_launched():140] started backend process with pid: 13456
+2021-06-30 20:03:25,380 INFO    MainThread:14312 [wandb_init.py:init():424] backend started and connected
+2021-06-30 20:03:25,401 INFO    MainThread:14312 [wandb_run.py:_label_probe_notebook():845] probe notebook
+2021-06-30 20:03:25,402 INFO    MainThread:14312 [wandb_run.py:_label_probe_notebook():852] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-06-30 20:03:25,402 INFO    MainThread:14312 [wandb_init.py:init():472] updated telemetry
+2021-06-30 20:03:25,404 INFO    MainThread:14312 [wandb_init.py:init():491] communicating current version
+2021-06-30 20:03:27,988 INFO    MainThread:14312 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.10.33 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-06-30 20:03:27,988 INFO    MainThread:14312 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-06-30 20:03:28,426 INFO    MainThread:14312 [wandb_init.py:init():529] starting run threads in backend
+2021-06-30 20:03:29,169 INFO    MainThread:14312 [wandb_run.py:_console_start():1624] atexit reg
+2021-06-30 20:03:29,170 INFO    MainThread:14312 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.WRAP
+2021-06-30 20:03:29,170 INFO    MainThread:14312 [wandb_run.py:_redirect():1535] Wrapping output streams.
+2021-06-30 20:03:29,173 INFO    MainThread:14312 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-06-30 20:03:29,173 INFO    MainThread:14312 [wandb_init.py:init():554] run started, returning control to user process
+2021-06-30 20:03:36,976 INFO    MainThread:14312 [wandb_init.py:_pause_backend():250] pausing backend
+2021-06-30 20:03:36,976 INFO    MainThread:14312 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-06-30 20:08:17,421 INFO    MainThread:14312 [wandb_init.py:_resume_backend():259] resuming backend
+2021-06-30 20:08:17,480 INFO    MainThread:14312 [wandb_init.py:_pause_backend():250] pausing backend
+2021-06-30 20:08:17,480 INFO    MainThread:14312 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-06-30 20:08:43,121 INFO    MainThread:14312 [wandb_init.py:_resume_backend():259] resuming backend
+2021-06-30 20:08:43,182 INFO    MainThread:14312 [wandb_init.py:_pause_backend():250] pausing backend
+2021-06-30 20:08:43,182 INFO    MainThread:14312 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-06-30 20:08:50,459 INFO    MainThread:14312 [wandb_init.py:_resume_backend():259] resuming backend
+2021-06-30 20:08:50,584 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-30 20:08:50,584 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 20:08:50,584 INFO    MainThread:14312 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-30 20:08:50,584 INFO    MainThread:14312 [wandb_init.py:_log_setup():337] Logging user logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_200850-2q2f118x\logs\debug.log
+2021-06-30 20:08:50,584 INFO    MainThread:14312 [wandb_init.py:_log_setup():338] Logging internal logs to C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\solution-guidance\wandb\run-20210630_200850-2q2f118x\logs\debug-internal.log
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_init.py:init():370] calling init triggers
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 39au2ip2
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_run.py:finish():1294] finishing run abhishekdiphu/visualize-sklearn/39au2ip2
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [jupyter.py:save_history():339] not saving jupyter history
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_init.py:_jupyter_teardown():269] cleaning up jupyter logic
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 0
+2021-06-30 20:08:50,599 INFO    MainThread:14312 [wandb_run.py:_restore():1566] restore
+2021-06-30 20:08:50,740 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 994
+  total_bytes: 994
+}
+
+2021-06-30 20:08:51,100 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 994
+  total_bytes: 994
+}
+
+2021-06-30 20:08:51,349 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 994
+  total_bytes: 1949
+}
+
+2021-06-30 20:08:52,068 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 994
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:52,178 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3272
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:52,287 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3892
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:52,397 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3892
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:52,506 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3892
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:52,615 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3892
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:52,725 INFO    MainThread:14312 [wandb_run.py:_wait_for_finish():1716] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3892
+  total_bytes: 3892
+}
+
+2021-06-30 20:08:53,834 INFO    MainThread:14312 [wandb_run.py:_show_files():1938] logging synced files
+2021-06-30 20:08:53,849 INFO    MainThread:14312 [wandb_init.py:init():419] starting backend
+2021-06-30 20:08:53,849 INFO    MainThread:14312 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-06-30 20:08:53,849 INFO    MainThread:14312 [backend.py:ensure_launched():135] starting backend process...
+2021-06-30 20:08:54,162 INFO    MainThread:14312 [backend.py:ensure_launched():140] started backend process with pid: 7700
+2021-06-30 20:08:54,162 INFO    MainThread:14312 [wandb_init.py:init():424] backend started and connected
+2021-06-30 20:08:54,177 INFO    MainThread:14312 [wandb_run.py:_label_probe_notebook():845] probe notebook
+2021-06-30 20:08:54,177 INFO    MainThread:14312 [wandb_run.py:_label_probe_notebook():852] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-06-30 20:08:54,193 INFO    MainThread:14312 [wandb_init.py:init():472] updated telemetry
+2021-06-30 20:08:54,193 INFO    MainThread:14312 [wandb_init.py:init():491] communicating current version
+2021-06-30 20:08:56,630 INFO    MainThread:14312 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.10.33 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-06-30 20:08:56,630 INFO    MainThread:14312 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-06-30 20:08:57,084 INFO    MainThread:14312 [wandb_init.py:init():529] starting run threads in backend
+2021-06-30 20:08:57,459 INFO    MainThread:14312 [wandb_run.py:_console_start():1624] atexit reg
+2021-06-30 20:08:57,459 INFO    MainThread:14312 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.WRAP
+2021-06-30 20:08:57,459 INFO    MainThread:14312 [wandb_run.py:_redirect():1535] Wrapping output streams.
+2021-06-30 20:08:57,474 INFO    MainThread:14312 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-06-30 20:08:57,474 INFO    MainThread:14312 [wandb_init.py:init():554] run started, returning control to user process
+2021-06-30 20:09:26,692 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 20:11:21,815 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 20:11:34,975 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 20:12:08,385 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 20:13:37,074 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 20:13:45,826 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 20:14:12,669 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 20:54:28,874 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 20:54:39,342 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 20:55:09,616 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 20:56:55,503 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 20:57:04,641 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 20:57:23,643 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 20:58:38,967 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 20:58:47,236 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 20:59:13,758 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 21:00:52,313 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 21:01:01,356 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 21:01:22,981 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 21:02:21,479 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 21:02:30,507 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 21:03:00,700 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 21:04:39,955 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 21:04:48,722 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 21:05:03,008 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 21:05:35,180 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 21:05:41,299 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 21:06:07,820 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 21:07:55,601 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 21:08:05,645 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
+2021-06-30 21:08:41,584 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}} None
+2021-06-30 21:10:55,464 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-06-30 21:11:09,292 INFO    MainThread:14312 [wandb_run.py:_config_callback():873] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}} None
