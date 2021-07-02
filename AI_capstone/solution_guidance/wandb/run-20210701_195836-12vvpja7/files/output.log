@@ -1,8 +1,0 @@
-
-... saving model: models\sl-all-0_1.joblib
-[4mReloaded modules[24m: logger, cslib
-TRAINING MODELS
-..\cs-train
-... loading ts data from files
-means quared error loss :  20300
-wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

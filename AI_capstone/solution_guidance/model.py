@@ -35,7 +35,7 @@ MODEL_VERSION_NOTE = "supervised learing model for time-series"
 
 #wandb.init(project="visualize-sklearn",name= "random forest", id = idt )
 
-dashboard = False
+dashboard = True
 
 def _model_train(df,tag,test=False):
     """

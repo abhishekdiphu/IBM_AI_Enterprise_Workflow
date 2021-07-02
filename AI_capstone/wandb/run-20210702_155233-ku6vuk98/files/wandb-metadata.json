@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.6.13",
+    "heartbeatAt": "2021-07-02T13:52:42.022564",
+    "startedAt": "2021-07-02T13:52:33.391364",
+    "docker": null,
+    "gpu": "GeForce 940MX",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\abhishek buragohaibn\\Desktop\\COURSERA\\IBM_AI_Enterprise_Workflow\\AI_capstone\\main.py",
+    "codePath": "AI_capstone\\main.py",
+    "git": {
+        "remote": "https://github.com/abhishekdiphu/IBM_AI_Enterprise_Workflow.git",
+        "commit": "09ddd42cf9bf2b4f82fb065ea9a31521a0540a64"
+    },
+    "email": "abhishekdiphu@gmail.com",
+    "root": "C:/Users/abhishek buragohaibn/Desktop/COURSERA/IBM_AI_Enterprise_Workflow",
+    "host": "LAPTOP-IP5TD1EQ",
+    "username": "abhishek buragohaibn",
+    "executable": "C:\\Users\\abhishek buragohaibn\\Anaconda3\\envs\\computervison\\python.exe"
+}

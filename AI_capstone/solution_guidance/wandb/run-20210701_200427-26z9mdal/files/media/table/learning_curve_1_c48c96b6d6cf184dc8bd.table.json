@@ -1,1 +1,0 @@
-{"columns": ["dataset", "score", "train_size"], "data": [["train", 0.94, 43], ["test", -6.2, 43], ["train", 0.97, 142], ["test", -2.8, 142], ["train", 0.96, 240], ["test", -1.81, 240], ["train", 0.95, 339], ["test", -3.16, 339], ["train", 0.94, 438], ["test", -0.48, 438]]}

@@ -1,0 +1,207 @@
+2021-07-02 15:45:03,596 INFO    MainThread:17316 [internal.py:wandb_internal():91] W&B internal server running at pid: 17316, started at: 2021-07-02 15:45:03.588331
+2021-07-02 15:45:03,600 INFO    WriterThread:17316 [datastore.py:open_for_write():80] open: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\run-2w66s6wl.wandb
+2021-07-02 15:45:03,601 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: check_version
+2021-07-02 15:45:03,605 DEBUG   SenderThread:17316 [sender.py:send():179] send: header
+2021-07-02 15:45:03,606 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: check_version
+2021-07-02 15:45:04,478 DEBUG   SenderThread:17316 [sender.py:send():179] send: run
+2021-07-02 15:45:04,918 INFO    SenderThread:17316 [dir_watcher.py:__init__():168] watching files in: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files
+2021-07-02 15:45:04,918 INFO    SenderThread:17316 [sender.py:_start_run_threads():707] run started: 2w66s6wl with start time 1625233501
+2021-07-02 15:45:04,919 DEBUG   SenderThread:17316 [sender.py:send():179] send: summary
+2021-07-02 15:45:04,919 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: run_start
+2021-07-02 15:45:04,921 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 15:45:05,477 DEBUG   HandlerThread:17316 [meta.py:__init__():39] meta init
+2021-07-02 15:45:05,477 DEBUG   HandlerThread:17316 [meta.py:__init__():53] meta init done
+2021-07-02 15:45:05,477 DEBUG   HandlerThread:17316 [meta.py:probe():210] probe
+2021-07-02 15:45:05,487 DEBUG   HandlerThread:17316 [meta.py:_setup_git():200] setup git
+2021-07-02 15:45:05,674 DEBUG   HandlerThread:17316 [meta.py:_setup_git():207] setup git done
+2021-07-02 15:45:05,674 DEBUG   HandlerThread:17316 [meta.py:_save_pip():57] save pip
+2021-07-02 15:45:05,676 DEBUG   HandlerThread:17316 [meta.py:_save_pip():71] save pip done
+2021-07-02 15:45:05,676 DEBUG   HandlerThread:17316 [meta.py:_save_conda():78] save conda
+2021-07-02 15:45:05,687 ERROR   HandlerThread:17316 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\site-packages\wandb\sdk\internal\meta.py", line 83, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\abhishek buragohaibn\Anaconda3\envs\computervison\lib\subprocess.py", line 1017, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-07-02 15:45:05,690 DEBUG   HandlerThread:17316 [meta.py:_save_conda():86] save conda done
+2021-07-02 15:45:05,690 DEBUG   HandlerThread:17316 [meta.py:probe():252] probe done
+2021-07-02 15:45:05,700 DEBUG   SenderThread:17316 [sender.py:send():179] send: files
+2021-07-02 15:45:05,701 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-07-02 15:45:05,712 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 15:45:05,712 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 15:45:05,938 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\conda-environment.yaml
+2021-07-02 15:45:05,939 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json
+2021-07-02 15:45:05,940 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-metadata.json
+2021-07-02 15:45:05,940 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\requirements.txt
+2021-07-02 15:45:05,941 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log
+2021-07-02 15:45:06,478 INFO    Thread-17 :17316 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmphn5kiz1hwandb\buuymmwt-wandb-metadata.json
+2021-07-02 15:45:08,009 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log
+2021-07-02 15:45:09,261 DEBUG   SenderThread:17316 [sender.py:send():179] send: config
+2021-07-02 15:45:09,657 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: log_artifact
+2021-07-02 15:45:09,657 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: log_artifact
+2021-07-02 15:45:10,013 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table\outlier_candidates_0_eb983549aa728a0cea71.table.json
+2021-07-02 15:45:10,014 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media
+2021-07-02 15:45:10,015 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table
+2021-07-02 15:45:10,998 INFO    Thread-19 :17316 [upload_job.py:push():91] Uploaded file C:\Users\abhishek buragohaibn\.cache\wandb\artifacts\obj\md5\ca\4d4be8ccdda20278926bdcaf2ba107
+2021-07-02 15:45:12,446 DEBUG   SenderThread:17316 [sender.py:send():179] send: files
+2021-07-02 15:45:12,447 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file media\table\outlier_candidates_0_eb983549aa728a0cea71.table.json with policy now
+2021-07-02 15:45:12,969 DEBUG   SenderThread:17316 [sender.py:send():179] send: history
+2021-07-02 15:45:12,969 DEBUG   SenderThread:17316 [sender.py:send():179] send: summary
+2021-07-02 15:45:12,973 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 15:45:13,045 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\config.yaml
+2021-07-02 15:45:13,048 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json
+2021-07-02 15:45:13,179 INFO    Thread-20 :17316 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmphn5kiz1hwandb\hi5m98de-media/table/outlier_candidates_0_eb983549aa728a0cea71.table.json
+2021-07-02 15:45:20,987 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 15:45:20,988 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 15:45:36,282 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 15:45:36,282 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 15:45:39,288 DEBUG   SenderThread:17316 [sender.py:send():179] send: stats
+2021-07-02 15:45:51,678 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 15:45:51,678 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 15:45:59,158 DEBUG   SenderThread:17316 [sender.py:send():179] send: config
+2021-07-02 15:45:59,586 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: log_artifact
+2021-07-02 15:45:59,586 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: log_artifact
+2021-07-02 15:45:59,613 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table\learning_curve_1_a11c1af903cea8ec3f09.table.json
+2021-07-02 15:45:59,613 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table
+2021-07-02 15:46:00,953 INFO    Thread-22 :17316 [upload_job.py:push():91] Uploaded file C:\Users\abhishek buragohaibn\.cache\wandb\artifacts\obj\md5\e4\171fd3fb148a7093fa9498ee199c19
+2021-07-02 15:46:02,429 DEBUG   SenderThread:17316 [sender.py:send():179] send: files
+2021-07-02 15:46:02,430 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file media\table\learning_curve_1_a11c1af903cea8ec3f09.table.json with policy now
+2021-07-02 15:46:02,621 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\config.yaml
+2021-07-02 15:46:02,942 DEBUG   SenderThread:17316 [sender.py:send():179] send: history
+2021-07-02 15:46:02,942 DEBUG   SenderThread:17316 [sender.py:send():179] send: summary
+2021-07-02 15:46:02,946 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 15:46:03,213 INFO    Thread-23 :17316 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmphn5kiz1hwandb\31lvw3yf-media/table/learning_curve_1_a11c1af903cea8ec3f09.table.json
+2021-07-02 15:46:03,638 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json
+2021-07-02 15:46:05,906 DEBUG   SenderThread:17316 [sender.py:send():179] send: config
+2021-07-02 15:46:06,264 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: log_artifact
+2021-07-02 15:46:06,264 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: log_artifact
+2021-07-02 15:46:06,653 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table\residuals_2_b4249f11daf51fb9531e.table.json
+2021-07-02 15:46:06,654 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table
+2021-07-02 15:46:06,973 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-02 15:46:07,535 INFO    Thread-25 :17316 [upload_job.py:push():91] Uploaded file C:\Users\abhishek buragohaibn\.cache\wandb\artifacts\obj\md5\63\bcb20e3fc75a478fa59ffe0cb65fdd
+2021-07-02 15:46:08,658 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log
+2021-07-02 15:46:09,191 DEBUG   SenderThread:17316 [sender.py:send():179] send: files
+2021-07-02 15:46:09,192 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file media\table\residuals_2_b4249f11daf51fb9531e.table.json with policy now
+2021-07-02 15:46:09,193 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: stop_status
+2021-07-02 15:46:09,637 DEBUG   SenderThread:17316 [sender.py:send():179] send: history
+2021-07-02 15:46:09,638 DEBUG   SenderThread:17316 [sender.py:send():179] send: summary
+2021-07-02 15:46:09,640 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 15:46:09,662 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\config.yaml
+2021-07-02 15:46:09,663 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json
+2021-07-02 15:46:09,957 INFO    Thread-26 :17316 [upload_job.py:push():133] Uploaded file C:\Users\ABHISH~1\AppData\Local\Temp\tmphn5kiz1hwandb\2f9n7at5-media/table/residuals_2_b4249f11daf51fb9531e.table.json
+2021-07-02 15:46:14,375 DEBUG   SenderThread:17316 [sender.py:send():179] send: stats
+2021-07-02 15:46:18,729 INFO    Thread-12 :17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log
+2021-07-02 15:46:21,798 DEBUG   SenderThread:17316 [sender.py:send():179] send: telemetry
+2021-07-02 15:46:21,799 DEBUG   SenderThread:17316 [sender.py:send():179] send: exit
+2021-07-02 15:46:21,799 INFO    SenderThread:17316 [sender.py:send_exit():287] handling exit code: 0
+2021-07-02 15:46:21,800 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:21,800 INFO    SenderThread:17316 [sender.py:send_exit():295] send defer
+2021-07-02 15:46:21,801 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:21,801 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:21,801 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 0
+2021-07-02 15:46:21,802 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:21,802 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-07-02 15:46:21,802 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 1
+2021-07-02 15:46:21,803 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:21,803 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 1
+2021-07-02 15:46:21,869 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:21,870 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-07-02 15:46:21,870 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 2
+2021-07-02 15:46:21,870 DEBUG   SenderThread:17316 [sender.py:send():179] send: stats
+2021-07-02 15:46:21,871 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:21,871 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 2
+2021-07-02 15:46:21,871 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:21,871 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-07-02 15:46:21,872 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 3
+2021-07-02 15:46:21,873 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:21,873 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 3
+2021-07-02 15:46:21,873 DEBUG   SenderThread:17316 [sender.py:send():179] send: summary
+2021-07-02 15:46:21,875 INFO    SenderThread:17316 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-07-02 15:46:21,875 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:21,875 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-07-02 15:46:21,876 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 4
+2021-07-02 15:46:21,876 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:21,876 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 4
+2021-07-02 15:46:21,877 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:21,877 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-07-02 15:46:21,908 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:22,204 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 5
+2021-07-02 15:46:22,204 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:22,205 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:22,205 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 5
+2021-07-02 15:46:22,205 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:22,206 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-07-02 15:46:22,206 INFO    SenderThread:17316 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-02 15:46:22,306 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:22,737 INFO    SenderThread:17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\config.yaml
+2021-07-02 15:46:22,737 INFO    SenderThread:17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json
+2021-07-02 15:46:22,738 INFO    SenderThread:17316 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log
+2021-07-02 15:46:22,738 INFO    SenderThread:17316 [dir_watcher.py:finish():312] scan: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files
+2021-07-02 15:46:22,739 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\conda-environment.yaml conda-environment.yaml
+2021-07-02 15:46:22,739 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\config.yaml config.yaml
+2021-07-02 15:46:22,740 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log output.log
+2021-07-02 15:46:22,741 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\requirements.txt requirements.txt
+2021-07-02 15:46:22,746 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-metadata.json wandb-metadata.json
+2021-07-02 15:46:22,750 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json wandb-summary.json
+2021-07-02 15:46:22,765 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table\learning_curve_1_a11c1af903cea8ec3f09.table.json media\table\learning_curve_1_a11c1af903cea8ec3f09.table.json
+2021-07-02 15:46:22,765 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table\outlier_candidates_0_eb983549aa728a0cea71.table.json media\table\outlier_candidates_0_eb983549aa728a0cea71.table.json
+2021-07-02 15:46:22,766 INFO    SenderThread:17316 [dir_watcher.py:finish():318] scan save: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\media\table\residuals_2_b4249f11daf51fb9531e.table.json media\table\residuals_2_b4249f11daf51fb9531e.table.json
+2021-07-02 15:46:22,766 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 6
+2021-07-02 15:46:22,766 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:22,767 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:22,767 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 6
+2021-07-02 15:46:22,768 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:22,768 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-07-02 15:46:22,768 INFO    SenderThread:17316 [file_pusher.py:finish():176] shutting down file pusher
+2021-07-02 15:46:22,768 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 7
+2021-07-02 15:46:22,769 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:22,769 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 7
+2021-07-02 15:46:22,769 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:22,770 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-07-02 15:46:22,868 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,115 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 8
+2021-07-02 15:46:23,115 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,116 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:23,117 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 8
+2021-07-02 15:46:23,117 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:23,118 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-07-02 15:46:23,118 INFO    SenderThread:17316 [sender.py:send_request_defer():342] send defer: 9
+2021-07-02 15:46:23,119 DEBUG   SenderThread:17316 [sender.py:send():179] send: final
+2021-07-02 15:46:23,119 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: defer
+2021-07-02 15:46:23,120 DEBUG   SenderThread:17316 [sender.py:send():179] send: footer
+2021-07-02 15:46:23,120 INFO    HandlerThread:17316 [handler.py:handle_request_defer():141] handle defer: 9
+2021-07-02 15:46:23,120 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: defer
+2021-07-02 15:46:23,121 INFO    SenderThread:17316 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-07-02 15:46:23,218 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,218 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,320 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,321 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,423 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,423 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,479 INFO    Thread-29 :17316 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\requirements.txt
+2021-07-02 15:46:23,502 INFO    Thread-27 :17316 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\config.yaml
+2021-07-02 15:46:23,509 INFO    Thread-30 :17316 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\wandb-summary.json
+2021-07-02 15:46:23,525 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,526 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,537 INFO    Thread-28 :17316 [upload_job.py:push():133] Uploaded file C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\files\output.log
+2021-07-02 15:46:23,628 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,628 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,730 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,730 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,832 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-02 15:46:23,833 DEBUG   SenderThread:17316 [sender.py:send_request():193] send_request: poll_exit
+2021-07-02 15:46:23,833 INFO    SenderThread:17316 [file_pusher.py:join():181] waiting for file pusher
+2021-07-02 15:46:23,836 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: get_summary
+2021-07-02 15:46:23,837 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: sampled_history
+2021-07-02 15:46:23,839 DEBUG   HandlerThread:17316 [handler.py:handle_request():124] handle_request: shutdown
+2021-07-02 15:46:23,839 INFO    HandlerThread:17316 [handler.py:finish():638] shutting down handler
+2021-07-02 15:46:24,120 INFO    WriterThread:17316 [datastore.py:close():288] close: C:\Users\abhishek buragohaibn\Desktop\COURSERA\IBM_AI_Enterprise_Workflow\AI_capstone\wandb\run-20210702_154456-2w66s6wl\run-2w66s6wl.wandb
+2021-07-02 15:46:24,833 INFO    SenderThread:17316 [sender.py:finish():933] shutting down sender
+2021-07-02 15:46:24,833 INFO    SenderThread:17316 [file_pusher.py:finish():176] shutting down file pusher
+2021-07-02 15:46:24,833 INFO    SenderThread:17316 [file_pusher.py:join():181] waiting for file pusher
+2021-07-02 15:46:24,834 INFO    MainThread:17316 [internal.py:handle_exit():78] Internal process exited

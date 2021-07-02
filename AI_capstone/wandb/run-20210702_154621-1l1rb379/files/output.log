@@ -1,0 +1,6 @@
+
+... saving model: solution_guidance/models\sl-germany-0_1.joblib
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+wandb: WARNING wandb uses only the first 10000 datapoints to create the plots.
+means quared error loss :  916
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
